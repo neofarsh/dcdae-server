@@ -1,0 +1,758 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/enchanted_book"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "minecraft:item/enchanted_books/aqua_affinity_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "minecraft:item/enchanted_books/bane_of_arthropods_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "minecraft:item/enchanted_books/bane_of_arthropods_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "minecraft:item/enchanted_books/bane_of_arthropods_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "minecraft:item/enchanted_books/bane_of_arthropods_4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "minecraft:item/enchanted_books/bane_of_arthropods_5"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7
+      },
+      "model": "minecraft:item/enchanted_books/blast_protection_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8
+      },
+      "model": "minecraft:item/enchanted_books/blast_protection_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 9
+      },
+      "model": "minecraft:item/enchanted_books/blast_protection_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10
+      },
+      "model": "minecraft:item/enchanted_books/blast_protection_4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 11
+      },
+      "model": "minecraft:item/enchanted_books/breach_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 12
+      },
+      "model": "minecraft:item/enchanted_books/breach_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 13
+      },
+      "model": "minecraft:item/enchanted_books/breach_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 14
+      },
+      "model": "minecraft:item/enchanted_books/breach_4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 15
+      },
+      "model": "minecraft:item/enchanted_books/channeling_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 16
+      },
+      "model": "minecraft:item/enchanted_books/curse_of_binding_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 17
+      },
+      "model": "minecraft:item/enchanted_books/curse_of_vanishing_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 18
+      },
+      "model": "minecraft:item/enchanted_books/density_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 19
+      },
+      "model": "minecraft:item/enchanted_books/density_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 20
+      },
+      "model": "minecraft:item/enchanted_books/density_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 21
+      },
+      "model": "minecraft:item/enchanted_books/density_4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 22
+      },
+      "model": "minecraft:item/enchanted_books/density_5"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 23
+      },
+      "model": "minecraft:item/enchanted_books/depth_strider_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 24
+      },
+      "model": "minecraft:item/enchanted_books/depth_strider_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 25
+      },
+      "model": "minecraft:item/enchanted_books/depth_strider_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 26
+      },
+      "model": "minecraft:item/enchanted_books/efficiency_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 27
+      },
+      "model": "minecraft:item/enchanted_books/efficiency_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 28
+      },
+      "model": "minecraft:item/enchanted_books/efficiency_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 29
+      },
+      "model": "minecraft:item/enchanted_books/efficiency_4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 30
+      },
+      "model": "minecraft:item/enchanted_books/efficiency_5"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 31
+      },
+      "model": "minecraft:item/enchanted_books/feather_falling_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 32
+      },
+      "model": "minecraft:item/enchanted_books/feather_falling_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 33
+      },
+      "model": "minecraft:item/enchanted_books/feather_falling_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 34
+      },
+      "model": "minecraft:item/enchanted_books/feather_falling_4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 35
+      },
+      "model": "minecraft:item/enchanted_books/fire_aspect_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 36
+      },
+      "model": "minecraft:item/enchanted_books/fire_aspect_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 37
+      },
+      "model": "minecraft:item/enchanted_books/fire_protection_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 38
+      },
+      "model": "minecraft:item/enchanted_books/fire_protection_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 39
+      },
+      "model": "minecraft:item/enchanted_books/fire_protection_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 40
+      },
+      "model": "minecraft:item/enchanted_books/fire_protection_4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 41
+      },
+      "model": "minecraft:item/enchanted_books/flame_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 42
+      },
+      "model": "minecraft:item/enchanted_books/fortune_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 43
+      },
+      "model": "minecraft:item/enchanted_books/fortune_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 44
+      },
+      "model": "minecraft:item/enchanted_books/fortune_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 45
+      },
+      "model": "minecraft:item/enchanted_books/frost_walker_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 46
+      },
+      "model": "minecraft:item/enchanted_books/frost_walker_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 47
+      },
+      "model": "minecraft:item/enchanted_books/impaling_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 48
+      },
+      "model": "minecraft:item/enchanted_books/impaling_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 49
+      },
+      "model": "minecraft:item/enchanted_books/impaling_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 50
+      },
+      "model": "minecraft:item/enchanted_books/impaling_4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 51
+      },
+      "model": "minecraft:item/enchanted_books/impaling_5"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 52
+      },
+      "model": "minecraft:item/enchanted_books/infinity_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 53
+      },
+      "model": "minecraft:item/enchanted_books/knockback_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 54
+      },
+      "model": "minecraft:item/enchanted_books/knockback_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 55
+      },
+      "model": "minecraft:item/enchanted_books/looting_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 56
+      },
+      "model": "minecraft:item/enchanted_books/looting_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 57
+      },
+      "model": "minecraft:item/enchanted_books/looting_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 58
+      },
+      "model": "minecraft:item/enchanted_books/loyalty_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 59
+      },
+      "model": "minecraft:item/enchanted_books/loyalty_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 60
+      },
+      "model": "minecraft:item/enchanted_books/loyalty_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 61
+      },
+      "model": "minecraft:item/enchanted_books/luck_of_the_sea_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 62
+      },
+      "model": "minecraft:item/enchanted_books/luck_of_the_sea_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 63
+      },
+      "model": "minecraft:item/enchanted_books/luck_of_the_sea_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 64
+      },
+      "model": "minecraft:item/enchanted_books/lure_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 65
+      },
+      "model": "minecraft:item/enchanted_books/lure_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 66
+      },
+      "model": "minecraft:item/enchanted_books/lure_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 67
+      },
+      "model": "minecraft:item/enchanted_books/mending_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 68
+      },
+      "model": "minecraft:item/enchanted_books/multishot_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 69
+      },
+      "model": "minecraft:item/enchanted_books/piercing_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 70
+      },
+      "model": "minecraft:item/enchanted_books/piercing_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 71
+      },
+      "model": "minecraft:item/enchanted_books/piercing_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 72
+      },
+      "model": "minecraft:item/enchanted_books/piercing_4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 73
+      },
+      "model": "minecraft:item/enchanted_books/power_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 74
+      },
+      "model": "minecraft:item/enchanted_books/power_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 75
+      },
+      "model": "minecraft:item/enchanted_books/power_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 76
+      },
+      "model": "minecraft:item/enchanted_books/power_4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 77
+      },
+      "model": "minecraft:item/enchanted_books/power_5"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 78
+      },
+      "model": "minecraft:item/enchanted_books/projectile_protection_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 79
+      },
+      "model": "minecraft:item/enchanted_books/projectile_protection_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 80
+      },
+      "model": "minecraft:item/enchanted_books/projectile_protection_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 81
+      },
+      "model": "minecraft:item/enchanted_books/projectile_protection_4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 82
+      },
+      "model": "minecraft:item/enchanted_books/protection_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 83
+      },
+      "model": "minecraft:item/enchanted_books/protection_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 84
+      },
+      "model": "minecraft:item/enchanted_books/protection_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 85
+      },
+      "model": "minecraft:item/enchanted_books/protection_4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 86
+      },
+      "model": "minecraft:item/enchanted_books/punch_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 87
+      },
+      "model": "minecraft:item/enchanted_books/punch_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 88
+      },
+      "model": "minecraft:item/enchanted_books/quick_charge_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 89
+      },
+      "model": "minecraft:item/enchanted_books/quick_charge_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 90
+      },
+      "model": "minecraft:item/enchanted_books/quick_charge_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 91
+      },
+      "model": "minecraft:item/enchanted_books/respiration_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 92
+      },
+      "model": "minecraft:item/enchanted_books/respiration_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 93
+      },
+      "model": "minecraft:item/enchanted_books/respiration_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 94
+      },
+      "model": "minecraft:item/enchanted_books/riptide_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 95
+      },
+      "model": "minecraft:item/enchanted_books/riptide_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 96
+      },
+      "model": "minecraft:item/enchanted_books/riptide_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 97
+      },
+      "model": "minecraft:item/enchanted_books/sharpness_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 98
+      },
+      "model": "minecraft:item/enchanted_books/sharpness_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 99
+      },
+      "model": "minecraft:item/enchanted_books/sharpness_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 100
+      },
+      "model": "minecraft:item/enchanted_books/sharpness_4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 101
+      },
+      "model": "minecraft:item/enchanted_books/sharpness_5"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 102
+      },
+      "model": "minecraft:item/enchanted_books/silk_touch_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 103
+      },
+      "model": "minecraft:item/enchanted_books/smite_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 104
+      },
+      "model": "minecraft:item/enchanted_books/smite_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 105
+      },
+      "model": "minecraft:item/enchanted_books/smite_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 106
+      },
+      "model": "minecraft:item/enchanted_books/smite_4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 107
+      },
+      "model": "minecraft:item/enchanted_books/smite_5"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 108
+      },
+      "model": "minecraft:item/enchanted_books/soul_speed_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 109
+      },
+      "model": "minecraft:item/enchanted_books/soul_speed_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 110
+      },
+      "model": "minecraft:item/enchanted_books/soul_speed_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 111
+      },
+      "model": "minecraft:item/enchanted_books/sweeping_edge_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 112
+      },
+      "model": "minecraft:item/enchanted_books/sweeping_edge_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 113
+      },
+      "model": "minecraft:item/enchanted_books/sweeping_edge_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 114
+      },
+      "model": "minecraft:item/enchanted_books/swift_sneak_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 115
+      },
+      "model": "minecraft:item/enchanted_books/swift_sneak_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 116
+      },
+      "model": "minecraft:item/enchanted_books/swift_sneak_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 117
+      },
+      "model": "minecraft:item/enchanted_books/thorns_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 118
+      },
+      "model": "minecraft:item/enchanted_books/thorns_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 119
+      },
+      "model": "minecraft:item/enchanted_books/thorns_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 120
+      },
+      "model": "minecraft:item/enchanted_books/unbreaking_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 121
+      },
+      "model": "minecraft:item/enchanted_books/unbreaking_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 122
+      },
+      "model": "minecraft:item/enchanted_books/unbreaking_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 123
+      },
+      "model": "minecraft:item/enchanted_books/wind_burst_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 124
+      },
+      "model": "minecraft:item/enchanted_books/wind_burst_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 125
+      },
+      "model": "minecraft:item/enchanted_books/wind_burst_3"
+    }
+]
+}
