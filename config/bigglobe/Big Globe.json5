@@ -1,0 +1,100 @@
+{
+
+	//If true, Big Globe will be the default world type.
+	//If false, vanilla will be the default world type.
+	//This config option can be useful if you like to create lots of worlds, or you're making a modpack featuring Big Globe.
+	"Make Big Globe the default world type": true,
+
+	//If true, saplings will grow into Big Globe trees in Big Globe worlds.
+	//If false, saplings will grow into normal (vanilla) trees in Big Globe worlds.
+	//This config option has no effect on trees that spawn during worldgen.
+	"Big Globe Trees In Big Globe Worlds": true,
+
+	//If true, waypoints will be usable.
+	//If false, waypoints cannot be used.
+	//The hyperspace dimension is a fast travel mechanic which allows players to quickly visit places they've been to before. This config option is provided for players who don't like fast travel or prefer a different mod's teleportation mechanics.
+	"Hyperspace Enabled": false,
+
+	//Number of threads to use for worldgen tasks (including worldgen for Distant Horizons and Voxy)
+	//More threads will result in faster terrain gen, but may reduce performance in other areas of the game.
+	//Less threads will result in slower terrain gen, but may improve performance in other areas of the game.
+	"Threads": 10,
+
+	//Options that are useful for data pack developers.
+	//Normal users should leave all of these disabled.
+	"Data Pack Debugging": {
+
+		//If true, Big Globe will generate graphs showing all column value dependencies.
+		//If false, Big Globe will not do that.
+		//The generated graphs can sometimes be useful for finding unexpected or accidental dependencies.
+		"Generate dependency graphs": false,
+
+		//If true, Big Globe will print all decision trees to the game console and log file when they're loaded.
+		//If false, Big Globe will not do that.
+		//Decision trees can be hard to follow, so having the entire tree in one place can be useful for understanding its structure.
+		"Print decision trees": false,
+
+		//If true, Big Globe will log a message to the game console and log file when a structure attempts to spawn somewhere and, if applicable, the reason why it failed to spawn there.
+		//If false, Big Globe will not do that.
+		//This option can be useful for debugging why a specific structure isn't spawning anywhere.
+		"Log structure spawn attempts": false,
+
+		//If true, Big Globe will log a message to the game console and log file when an empty tag is loaded.
+		//If false, Big Globe will not do that.
+		//This option can be useful for finding tags that you forgot to put values in, and can occasionally be useful for debugging tags that are referenced before loading is complete, resulting in a tag that shouldn't be empty, but is.
+		"Log empty tags": false
+	},
+
+	//Configures special actions to skip when generating chunks for Distant Horizons.
+	//None of these actions will ever be skipped for normal chunks. This category will have no effect if Distant Horizons is not installed.
+	"Distant Horizons Integration": {
+
+		//If true, Big Globe will generate distant terrain directly through Distant Horizons' API, skipping chunks entirely.
+		//If false, Big Globe will allow Distant Horizons to wrap Big Globe's default chunk generator.
+		//Enabling this config option will skip structures and features. In particular, you will not see any trees with this option enabled until you get close to them.
+		"Hyperspeed Generation": false,
+
+		//NONE - The underground and all blocks in it are completely skipped.
+		//FILL - The underground will be filled with stone, but no caves will generate.
+		//CARVE - Caves will generate, but underground structures and features will not.
+		//DECORATE - All underground stuff will generate normally.
+		//Reducing this value can increase the speed which Big Globe can generate chunks for Distant Horizons at.
+		"Underground Mode": "FILL"
+	},
+
+	//Configures special actions to take or skip when generating chunks for Voxy.
+	//None of these actions will ever be skipped for normal chunks. This category will have no effect if Voxy is not installed.
+	"Voxy Integration": {
+
+		//If true, Big Globe will generate terrain for Voxy constantly in a background thread.
+		//If false, Voxy will only process chunks you've visited.
+		//Note that terrain generated this way may be a simplified representation of actual terrain, and finer details may be filled in only when you get closer to it.
+		"Use Worldgen Thread": true,
+
+		//NONE - The underground and all blocks in it are completely skipped.
+		//FILL - The underground will be filled with stone, but no caves will generate.
+		//CARVE - Caves will generate, but underground structures and features will not.
+		//DECORATE - Currently the same as 2, but maybe some day underground structures and features might generate too.
+		//Reducing this value can increase the speed which Big Globe can generate chunks for Voxy at.
+		"Underground Mode": "NONE",
+
+		//If true, Big Globe will tell Voxy what the light level of air blocks are.
+		//If false, Big Globe will skip air blocks when giving data to Voxy.
+		//Enabling this option can fix some lighting errors with Voxy, at the cost of LOD generation speed.
+		"Light Air": false
+	},
+
+	//Configures how initial player spawning works in Big Globe worlds.
+	//These config options have no effect outside of Big Globe worlds.
+	"Player Spawning": {
+
+		//Maximum distance from the origin which players can spawn at.
+		//This is a square distance, not a circular distance.
+		"Max Spawn Radius": 10000.0,
+
+		//If true, every player will be given their own unique spawn point the first time they spawn in the world.
+		//If false, every player will spawn at the world's spawn point.
+		//This config option does not affect players who have set their spawn point manually with a bed, a respawn anchor, or the /spawnpoint command.
+		"Per-Player Spawn Points": false
+	}
+}

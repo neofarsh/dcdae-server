@@ -1,0 +1,33 @@
+{
+  "variants": {
+     "snowy=false": [
+		{"model": "minecraft:block/mycelium/mycelium", "weight":120},
+		{"model": "minecraft:block/mycelium/mycelium", "weight":120, "y": 90},
+		{"model": "minecraft:block/mycelium/mycelium", "weight":120, "y": 180},
+		{"model": "minecraft:block/mycelium/mycelium", "weight":120, "y": 270},
+		
+		{"model": "minecraft:block/mycelium/mycelium_clover", "weight":8},
+		{"model": "minecraft:block/mycelium/mycelium_clover", "weight":8, "y": 90},
+		{"model": "minecraft:block/mycelium/mycelium_clover", "weight":8, "y": 180},
+		{"model": "minecraft:block/mycelium/mycelium_clover", "weight":8, "y": 270},
+		
+		{"model": "minecraft:block/mycelium/mycelium_clover_small", "weight":12},
+		{"model": "minecraft:block/mycelium/mycelium_clover_small", "weight":12, "y":90},
+		{"model": "minecraft:block/mycelium/mycelium_clover_small", "weight":12, "y":180},
+		{"model": "minecraft:block/mycelium/mycelium_clover_small", "weight":12, "y":270},
+
+		{"model": "minecraft:block/mycelium/mycelium_mushroom_red", "weight":3},
+		{"model": "minecraft:block/mycelium/mycelium_mushroom_red", "weight":3, "y":90},
+		{"model": "minecraft:block/mycelium/mycelium_mushroom_red", "weight":3, "y":180},
+		{"model": "minecraft:block/mycelium/mycelium_mushroom_red", "weight":3, "y":270},
+		
+		{"model": "minecraft:block/mycelium/mycelium_mushroom_brown", "weight":3},
+		{"model": "minecraft:block/mycelium/mycelium_mushroom_brown", "weight":3, "y":90},
+		{"model": "minecraft:block/mycelium/mycelium_mushroom_brown", "weight":3, "y":180},
+		{"model": "minecraft:block/mycelium/mycelium_mushroom_brown", "weight":3, "y":270}
+    ],
+    "snowy=true": {
+      "model": "minecraft:block/grass_block_snow"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "variants": {
+    "snowy=false": [
+		{"model": "minecraft:block/grass_block/grass_block", "weight":120},
+		{"model": "minecraft:block/grass_block/grass_block", "weight":120, "y": 90},
+		{"model": "minecraft:block/grass_block/grass_block", "weight":120, "y": 180},
+		{"model": "minecraft:block/grass_block/grass_block", "weight":120, "y": 270},
+		
+		{"model": "minecraft:block/grass_block/grass_block_clover", "weight":8},
+		{"model": "minecraft:block/grass_block/grass_block_clover", "weight":8, "y": 90},
+		{"model": "minecraft:block/grass_block/grass_block_clover", "weight":8, "y": 180},
+		{"model": "minecraft:block/grass_block/grass_block_clover", "weight":8, "y": 270},
+		
+		{"model": "minecraft:block/grass_block/grass_block_clover_small", "weight":12},
+		{"model": "minecraft:block/grass_block/grass_block_clover_small", "weight":12, "y":90},
+		{"model": "minecraft:block/grass_block/grass_block_clover_small", "weight":12, "y":180},
+		{"model": "minecraft:block/grass_block/grass_block_clover_small", "weight":12, "y":270},
+		
+		{"model": "minecraft:block/grass_block/grass_block_rock", "weight":1},
+		{"model": "minecraft:block/grass_block/grass_block_rock", "weight":1, "y":90},
+		{"model": "minecraft:block/grass_block/grass_block_rock", "weight":1, "y":180},
+		{"model": "minecraft:block/grass_block/grass_block_rock", "weight":1, "y":270},
+
+		{"model": "minecraft:block/grass_block/grass_block_flower_small", "weight":4},
+		{"model": "minecraft:block/grass_block/grass_block_flower_small", "weight":4, "y":90},
+		{"model": "minecraft:block/grass_block/grass_block_flower_small", "weight":4, "y":180},
+		{"model": "minecraft:block/grass_block/grass_block_flower_small", "weight":4, "y":270},
+		
+		{"model": "minecraft:block/grass_block/grass_block_flower_big", "weight":2},
+		{"model": "minecraft:block/grass_block/grass_block_flower_big", "weight":2, "y":90},
+		{"model": "minecraft:block/grass_block/grass_block_flower_big", "weight":2, "y":180},
+		{"model": "minecraft:block/grass_block/grass_block_flower_big", "weight":2, "y":270}
+    ],
+    "snowy=true": {
+      "model": "minecraft:block/grass_block_snow"
+    }
+  }
+}

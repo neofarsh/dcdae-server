@@ -1,0 +1,200 @@
+# LambDynamicLights configuration.
+# The dynamic lights mode
+mode = "fancy"
+
+# Light sources settings.
+[light_sources]
+	# Enables water-sensitive light sources check. This means that water-sensitive items will not light up when submerged in water.
+	water_sensitive_check = true
+	# Enables dynamic lighting of beacon or end gateway beams.
+	beam = true
+	# Enable entities light source.
+	entities = true
+	# Enable first-person player light source.
+	self = true
+	# TNT lighting mode. May be off, simple or fancy.
+	tnt = "off"
+	# Creeper lighting mode. May be off, simple or fancy.
+	creeper = "simple"
+	# Enables dynamic lighting of Guardian's lasers. This also can be toggled off by disabling Guardian dynamic lighting.
+	guardian_laser = true
+
+			[light_sources.settings.entities.minecraft]
+				glow_item_frame = false
+
+[debug]
+	active_dynamic_lighting_cells = false
+	display_dynamic_lighting_chunk_rebuild = false
+	display_behavior_bounding_box = false
+
+	[entity.minecraft]
+		pale_oak_boat = true
+		zombie_horse = true
+		axolotl = true
+		egg = true
+		zoglin = true
+		spawner_minecart = true
+		allay = true
+		jungle_chest_boat = true
+		llama = true
+		mule = true
+		husk = true
+		bat = true
+		experience_bottle = true
+		camel = true
+		rabbit = true
+		firework_rocket = true
+		silverfish = true
+		giant = true
+		drowned = true
+		creaking = true
+		item = true
+		oak_chest_boat = true
+		goat = true
+		horse = true
+		vindicator = true
+		birch_boat = true
+		minecart = true
+		spectral_arrow = true
+		oak_boat = true
+		mooshroom = true
+		llama_spit = true
+		glow_item_frame = true
+		tnt = true
+		snowball = true
+		parrot = true
+		creeper = true
+		lightning_bolt = true
+		tadpole = true
+		ravager = true
+		evoker_fangs = true
+		chest_minecart = true
+		tropical_fish = true
+		slime = true
+		pillager = true
+		dark_oak_chest_boat = true
+		area_effect_cloud = true
+		blaze = true
+		piglin = true
+		end_crystal = true
+		endermite = true
+		ender_pearl = true
+		zombie = true
+		item_display = true
+		breeze_wind_charge = true
+		guardian = true
+		fireball = true
+		illusioner = true
+		eye_of_ender = true
+		wither_skull = true
+		wolf = true
+		tnt_minecart = true
+		block_display = true
+		zombie_villager = true
+		elder_guardian = true
+		cherry_chest_boat = true
+		acacia_chest_boat = true
+		small_fireball = true
+		strider = true
+		cave_spider = true
+		witch = true
+		snow_golem = true
+		cod = true
+		spider = true
+		command_block_minecart = true
+		panda = true
+		bee = true
+		arrow = true
+		cow = true
+		birch_chest_boat = true
+		magma_cube = true
+		pig = true
+		spruce_boat = true
+		skeleton = true
+		frog = true
+		hoglin = true
+		armadillo = true
+		armor_stand = true
+		experience_orb = true
+		dolphin = true
+		stray = true
+		jungle_boat = true
+		turtle = true
+		shulker = true
+		wither_skeleton = true
+		vex = true
+		salmon = true
+		wandering_trader = true
+		piglin_brute = true
+		breeze = true
+		ocelot = true
+		acacia_boat = true
+		pale_oak_chest_boat = true
+		furnace_minecart = true
+		mangrove_boat = true
+		item_frame = true
+		phantom = true
+		ender_dragon = true
+		leash_knot = true
+		evoker = true
+		marker = true
+		glow_squid = true
+		warden = true
+		shulker_bullet = true
+		squid = true
+		enderman = true
+		dragon_fireball = true
+		chicken = true
+		sniffer = true
+		dark_oak_boat = true
+		trader_llama = true
+		donkey = true
+		bogged = true
+		bamboo_chest_raft = true
+		bamboo_raft = true
+		fox = true
+		mangrove_chest_boat = true
+		cherry_boat = true
+		iron_golem = true
+		zombified_piglin = true
+		cat = true
+		wind_charge = true
+		ghast = true
+		sheep = true
+		player = true
+		pufferfish = true
+		potion = true
+		trident = true
+		villager = true
+		ominous_item_spawner = true
+		skeleton_horse = true
+		fishing_bobber = true
+		text_display = true
+		polar_bear = true
+		hopper_minecart = true
+		falling_block = true
+		painting = true
+		interaction = true
+		wither = true
+		spruce_chest_boat = true
+
+	[entity.copperhopper]
+		copper_hopper_minecart = true
+
+	[entity.fishofthieves]
+		devilfish = true
+		splashtail = true
+		stormfish = true
+		ancientscale = true
+		wrecker = true
+		battlegill = true
+		wildsplash = true
+		plentifin = true
+		islehopper = true
+		pondie = true
+
+	[entity.bigglobe]
+		rock = true
+		waypoint = true
+		torch_arrow = true
+		string = true

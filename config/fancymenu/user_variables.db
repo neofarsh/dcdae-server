@@ -1,0 +1,20 @@
+type = user_variables
+
+variable {
+  name = acc
+  value = 0
+  reset_on_launch = false
+}
+
+variable {
+  name = marker_name
+  value = спавн
+  reset_on_launch = false
+}
+
+variable {
+  name = marker_icon
+  value = anchor
+  reset_on_launch = false
+}
+
