@@ -24,12 +24,12 @@ xaero.map.gui.GuiMap {
 net.minecraft.class_429 {
 }
 
-net.envs.winter.clientkeylogin.gui.EditIdentityScreen {
-}
-
 net.minecraft.class_442 {
 }
 
 net.minecraft.class_500 {
+}
+
+net.envs.winter.clientkeylogin.gui.EditIdentityScreen {
 }
 
