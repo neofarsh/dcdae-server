@@ -15,6 +15,11 @@
 	//The hyperspace dimension is a fast travel mechanic which allows players to quickly visit places they've been to before. This config option is provided for players who don't like fast travel or prefer a different mod's teleportation mechanics.
 	"Hyperspace Enabled": false,
 
+	//If true, molten rocks will turn into ores when water is poured on them.
+	//If false, molten rocks will turn into stone when water is poured on them.
+	//Molten rock can be found in the core at the bottom of the world. It is very difficult to get to, and very rewarding for the resources it grants. Nevertheless, this config option exists for people who think this system is overpowered.
+	"Molten rocks turn into ores": true,
+
 	//Number of threads to use for worldgen tasks (including worldgen for Distant Horizons and Voxy)
 	//More threads will result in faster terrain gen, but may reduce performance in other areas of the game.
 	//Less threads will result in slower terrain gen, but may improve performance in other areas of the game.
@@ -42,7 +47,12 @@
 		//If true, Big Globe will log a message to the game console and log file when an empty tag is loaded.
 		//If false, Big Globe will not do that.
 		//This option can be useful for finding tags that you forgot to put values in, and can occasionally be useful for debugging tags that are referenced before loading is complete, resulting in a tag that shouldn't be empty, but is.
-		"Log empty tags": false
+		"Log empty tags": false,
+
+		//If true, Big Globe will log a message to the game console and log file when extra mob spawns are computed for a biome/spawn group.
+		//If false, Big Globe will not do that.
+		//Extra mob spawns are computed lazily and as-needed, so not all spawns will be printed immediately when the world is loaded.
+		"Log extra mob spawns": false
 	},
 
 	//Configures special actions to skip when generating chunks for Distant Horizons.

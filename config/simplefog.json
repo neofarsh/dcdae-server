@@ -2,6 +2,13 @@
   "terrainToggle": true,
   "terrainStart": 70.0,
   "terrainEnd": 100.0,
+  "rainConfig": {
+    "rainToggle": true,
+    "rainStart": 0.0,
+    "rainStartIndoor": 25.0,
+    "rainEnd": 110.0,
+    "rainFogApplySpeed": 1.0
+  },
   "waterToggle": true,
   "waterStart": -20.0,
   "waterEnd": 90.0,
