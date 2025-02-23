@@ -24,12 +24,21 @@ net.envs.winter.clientkeylogin.gui.EditIdentityScreen {
 net.minecraft.class_442 {
 }
 
-net.minecraft.class_433 {
-}
-
 net.minecraft.class_429 {
 }
 
+red.jackf.chesttracker.impl.gui.screen.ChestTrackerScreen {
+}
+
 xaero.map.gui.GuiMap {
+}
+
+xaero.map.gui.GuiWorldMapSettings {
+}
+
+net.minecraft.class_433 {
+}
+
+xaero.common.gui.GuiAddWaypoint {
 }
 
