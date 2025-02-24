@@ -14,5 +14,5 @@
 	"bounce_multiplier": 0.333,
 	"floppy_multiplier": 0.75,
 	"voice_pitch": 1.0,
-	"holiday_themes": false
+	"holiday_themes": true
 }

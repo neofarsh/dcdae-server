@@ -106,7 +106,7 @@ caveModeToggleTimer:1000
 legibleCaveMaps:false
 biomeBlending:true
 displayTrackedPlayersOnMap:true
-displayTrackedPlayersInWorld:true
+displayTrackedPlayersInWorld:false
 dimensionScaledMaxWaypointDistance:true
 trackedPlayerWorldIconScale:0
 trackedPlayerWorldNameScale:0
