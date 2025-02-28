@@ -13,7 +13,7 @@ minimap:false
 caveMaps:2
 caveZoom:1
 showWaypoints:true
-showIngameWaypoints:false
+showIngameWaypoints:true
 displayRedstone:true
 deathpoints:true
 oldDeathpoints:true

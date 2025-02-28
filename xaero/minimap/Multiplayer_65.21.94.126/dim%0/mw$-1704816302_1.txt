@@ -1,0 +1,26 @@
+#
+#waypoint:name:initials:x:y:z:color:disabled:type:set:rotate_on_tp:tp_yaw:visibility_type:destination
+#
+waypoint:ферма:Ф:2123:47:-7865:14:false:0:gui.xaero_default:false:0:0:false
+waypoint:амбар:А:547:11:-5875:14:false:0:gui.xaero_default:false:0:1:false
+waypoint:особняк:О:2275:81:-8082:0:false:0:gui.xaero_default:false:0:1:false
+waypoint:кузница:К:1794:92:-8322:6:false:0:gui.xaero_default:false:0:0:false
+waypoint:библиотека:Б:1884:91:-8264:4:false:0:gui.xaero_default:false:0:1:false
+waypoint:амбар:А:1915:92:-8303:14:false:0:gui.xaero_default:false:0:1:false
+waypoint:мельница:М:1904:120:-8361:15:false:0:gui.xaero_default:false:0:1:false
+waypoint:база бобинопа:Б:1857:112:-8351:6:false:0:gui.xaero_default:false:0:1:false
+waypoint:база саши:Б:2148:65:-7838:13:false:0:gui.xaero_default:false:0:1:false
+waypoint:землянка тайреда:З:2334:77:-7953:6:false:0:gui.xaero_default:false:0:1:false
+waypoint:замок плейбоя:З:2288:70:-7948:7:false:0:gui.xaero_default:false:0:1:false
+waypoint:база иревы:Б:2249:72:-7986:12:false:0:gui.xaero_default:false:0:1:false
+waypoint:база джисона:Ж:3121:96:-8051:5:false:0:gui.xaero_default:false:0:1:false
+waypoint:энд:Э:1748:0:-4971:14:false:0:gui.xaero_default:false:0:1:false
+waypoint:ферма криперов:Ф:802:135:-5778:10:false:0:gui.xaero_default:false:0:1:false
+waypoint:мельница:М:2382:113:-6911:14:false:0:gui.xaero_default:false:0:1:false
+waypoint:могила:М:2197:16:-6798:7:false:0:gui.xaero_default:false:0:1:false
+waypoint:маяк:М:2105:72:-6757:12:false:0:gui.xaero_default:false:0:1:false
+waypoint:база зивкас:Б:2059:24:-6879:10:false:0:gui.xaero_default:false:0:1:false
+waypoint:старая база:С:1834:7:-6872:14:false:0:gui.xaero_default:false:0:1:false
+waypoint:безымянная база:Б:891:7:-6406:14:false:0:gui.xaero_default:false:0:1:false
+waypoint:база ани:А:599:9:-5838:6:false:0:gui.xaero_default:false:0:1:false
+waypoint:база дяны:Д:690:17:-6055:4:false:0:gui.xaero_default:false:0:1:false
