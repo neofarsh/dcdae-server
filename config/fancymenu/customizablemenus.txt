@@ -21,9 +21,6 @@ net.minecraft.class_500 {
 net.envs.winter.clientkeylogin.gui.EditIdentityScreen {
 }
 
-net.minecraft.class_442 {
-}
-
 red.jackf.chesttracker.impl.gui.screen.ChestTrackerScreen {
 }
 
@@ -37,5 +34,11 @@ net.minecraft.class_433 {
 }
 
 xaero.common.gui.GuiAddWaypoint {
+}
+
+net.minecraft.class_429 {
+}
+
+net.minecraft.class_442 {
 }
 
