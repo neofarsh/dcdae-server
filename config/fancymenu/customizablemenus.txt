@@ -1,0 +1,41 @@
+type = customizablemenus
+
+net.minecraft.class_4189 {
+}
+
+de.maxhenkel.voicechat.gui.VoiceChatScreen {
+}
+
+de.maxhenkel.voicechat.gui.VoiceChatSettingsScreen {
+}
+
+net.minecraft.class_433 {
+}
+
+garden.hestia.hoofprint.HoofprintScreen {
+}
+
+net.puffish.skillsmod.client.gui.SkillsScreen {
+}
+
+net.minecraft.class_8219 {
+}
+
+com.wildfire.gui.screen.WardrobeBrowserScreen {
+}
+
+com.wildfire.gui.screen.WildfireCharacterSettingsScreen {
+}
+
+com.wildfire.gui.screen.WildfireBreastCustomizationScreen {
+}
+
+net.minecraft.class_442 {
+}
+
+net.minecraft.class_429 {
+}
+
+net.envs.winter.clientkeylogin.gui.EditIdentityScreen {
+}
+

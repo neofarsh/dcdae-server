@@ -1,0 +1,256 @@
+---- Minecraft Network Protocol Error Report ----
+// Could be worse, I guess
+
+Time: 2024-12-03 07:46:34
+Description: Packet handling error
+
+java.lang.NullPointerException: Cannot invoke "net.minecraft.class_1297.method_5477()" because the return value of "de.markusbordihn.easynpc.client.screen.configuration.main.MainConfigurationScreen.getEasyNPCEntity()" is null
+	at knot//de.markusbordihn.easynpc.client.screen.configuration.main.MainConfigurationScreen.defineNameAndColorBox(MainConfigurationScreen.java:273)
+	at knot//de.markusbordihn.easynpc.client.screen.configuration.main.MainConfigurationScreen.method_25426(MainConfigurationScreen.java:102)
+	at knot//net.minecraft.class_437.method_25423(class_437.java:309)
+	at knot//net.minecraft.class_310.method_1507(class_310.java:1143)
+	at knot//net.minecraft.class_3929$class_3930.method_17543(class_3929.java:61)
+	at knot//net.minecraft.class_3929.method_17541(class_3929.java:47)
+	at knot//net.minecraft.class_634.method_17587(class_634.java:1226)
+	at knot//net.minecraft.class_3944.method_17591(class_3944.java:38)
+	at knot//net.minecraft.class_3944.method_11054(class_3944.java:13)
+	at knot//net.minecraft.class_2600.method_11072(class_2600.java:27)
+	at knot//net.minecraft.class_1255.method_18859(class_1255.java:162)
+	at knot//net.minecraft.class_4093.method_18859(class_4093.java:23)
+	at knot//net.minecraft.class_1255.method_16075(class_1255.java:136)
+	at knot//net.minecraft.class_1255.method_5383(class_1255.java:121)
+	at knot//net.minecraft.class_310.method_1523(class_310.java:1240)
+	at knot//net.minecraft.class_310.method_1514(class_310.java:882)
+	at knot//net.minecraft.client.main.Main.main(Main.java:256)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at knot//de.markusbordihn.easynpc.client.screen.configuration.main.MainConfigurationScreen.defineNameAndColorBox(MainConfigurationScreen.java:273)
+	at knot//de.markusbordihn.easynpc.client.screen.configuration.main.MainConfigurationScreen.method_25426(MainConfigurationScreen.java:102)
+	at knot//net.minecraft.class_437.method_25423(class_437.java:309)
+	at knot//net.minecraft.class_310.method_1507(class_310.java:1143)
+	at knot//net.minecraft.class_3929$class_3930.method_17543(class_3929.java:61)
+	at knot//net.minecraft.class_3929.method_17541(class_3929.java:47)
+
+-- Incoming Packet --
+Details:
+	Type: clientbound/minecraft:open_screen
+	Is Terminal: false
+	Is Skippable: false
+Stacktrace:
+	at knot//net.minecraft.class_2600.method_59803(class_2600.java:56)
+	at knot//net.minecraft.class_8673.method_60882(class_8673.java:136)
+	at knot//net.minecraft.class_8673.method_59807(class_8673.java:113)
+	at knot//net.minecraft.class_2600.method_11072(class_2600.java:32)
+	at knot//net.minecraft.class_1255.method_18859(class_1255.java:162)
+	at knot//net.minecraft.class_4093.method_18859(class_4093.java:23)
+	at knot//net.minecraft.class_1255.method_16075(class_1255.java:136)
+	at knot//net.minecraft.class_1255.method_5383(class_1255.java:121)
+	at knot//net.minecraft.class_310.method_1523(class_310.java:1240)
+	at knot//net.minecraft.class_310.method_1514(class_310.java:882)
+	at knot//net.minecraft.client.main.Main.main(Main.java:256)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+
+-- Connection --
+Details:
+	Protocol: play
+	Flow: CLIENTBOUND
+	Server type: OTHER
+	Server brand: fabric
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.1
+	Minecraft Version ID: 1.21.1
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 21.0.3, Microsoft
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Microsoft
+	Memory: 315685440 bytes (301 MiB) / 2134900736 bytes (2036 MiB) up to 2134900736 bytes (2036 MiB)
+	CPUs: 12
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 5 3600 6-Core Processor              
+	Identifier: AuthenticAMD Family 23 Model 113 Stepping 0
+	Microarchitecture: Zen 2
+	Frequency (GHz): 3.59
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 12
+	Graphics card #0 name: Radeon RX 580 Series
+	Graphics card #0 vendor: Advanced Micro Devices, Inc.
+	Graphics card #0 VRAM (MiB): 4096.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 31.0.21921.1000
+	Memory slot #0 capacity (MiB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 2.40
+	Memory slot #0 type: DDR4
+	Virtual memory max (MiB): 9473.55
+	Virtual memory used (MiB): 8645.82
+	Swap memory total (MiB): 1334.99
+	Swap memory used (MiB): 246.08
+	Space in storage for jna.tmpdir (MiB): available: 370555.88, total: 457745.00
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): available: 370555.88, total: 457745.00
+	Space in storage for io.netty.native.workdir (MiB): available: 370555.88, total: 457745.00
+	Space in storage for java.io.tmpdir (MiB): available: 370555.88, total: 457745.00
+	Space in storage for workdir (MiB): available: 370555.88, total: 457745.00
+	JVM Flags: 1 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	Fabric Mods: 
+		alloy_forgery: Alloy Forgery 2.4.1+1.21
+		another_furniture: Another Furniture 4.0.0
+		arts_and_crafts: Arts & Crafts 1.3.1
+			blue_endless_jankson: jankson 1.2.3
+		axolotlbuckets: Axolotl Buckets 1.2.0
+		betteradvancements: Better Advancements 0.4.3.21
+		chatsigninghider: Chat Signing Hider 1.21.1-1.0.5
+		christmas-delight: Christmas Delight 1.0-noremandier
+		cinderscapes: Cinderscapes 5.0.2
+			biolith: Biolith 3.0.0
+			cinderscapes-client: Cinderscapes: Client 5.0.2
+			cinderscapes-common: Cinderscapes: Common 5.0.2
+			cinderscapes-worldgen: Cinderscapes: World Generation 5.0.2
+			terraform-biome-remapper-api-v1: Terraform Biome Remapper API (v1) 11.0.0
+			terraform-shapes-api-v1: Terraform Shapes API (v1) 11.0.0
+			terraform-surfaces-api-v1: Terraform Surfaces API (v1) 11.0.0
+			terraform-wood-api-v1: Terraform Wood API (v1) 11.0.0
+		client-key-login: client key login 0.4.3+1.21
+		cloth-config: Cloth Config v15 15.0.140
+			cloth-basic-math: cloth-basic-math 0.6.1
+		copperhopper: Copper Hopper 0.10.0+1.21.1
+		deeperdarker: Deeper and Darker 1.3.2.1
+		display_case: DisplayCase 1.0.1
+		easy_npc: Easy NPC 5.7.6
+		eg-inventory-blur: eg-inventory-blur 1.0.1
+		emojitype: Emoji Type 2.3.0-1.21.3
+		endrem: End Remastered 6.0.2
+		energizedpower: Energized Power 1.21.1-2.12.4-fabric
+			team_reborn_energy: Energy 4.1.0
+		extrasounds: ExtraSounds Next 1.3a
+		fabric-api: Fabric API 0.110.0+1.21.1
+			fabric-api-base: Fabric API Base 0.4.42+6573ed8c19
+			fabric-api-lookup-api-v1: Fabric API Lookup API (v1) 1.6.70+b559734419
+			fabric-biome-api-v1: Fabric Biome API (v1) 13.0.30+be1ed2d719
+			fabric-block-api-v1: Fabric Block API (v1) 1.0.22+0af3f5a719
+			fabric-block-view-api-v2: Fabric BlockView API (v2) 1.0.10+6573ed8c19
+			fabric-blockrenderlayer-v1: Fabric BlockRenderLayer Registration (v1) 1.1.52+0af3f5a719
+			fabric-client-tags-api-v1: Fabric Client Tags 1.1.15+6573ed8c19
+			fabric-command-api-v1: Fabric Command API (v1) 1.2.49+f71b366f19
+			fabric-command-api-v2: Fabric Command API (v2) 2.2.28+6ced4dd919
+			fabric-commands-v0: Fabric Commands (v0) 0.2.66+df3654b319
+			fabric-content-registries-v0: Fabric Content Registries (v0) 8.0.18+b559734419
+			fabric-convention-tags-v1: Fabric Convention Tags 2.1.2+7f945d5b19
+			fabric-convention-tags-v2: Fabric Convention Tags (v2) 2.9.2+e60e56d419
+			fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.2.29+0af3f5a719
+			fabric-data-attachment-api-v1: Fabric Data Attachment API (v1) 1.4.0+da19b51a19
+			fabric-data-generation-api-v1: Fabric Data Generation API (v1) 20.2.24+16c4ae2519
+			fabric-dimensions-v1: Fabric Dimensions API (v1) 4.0.0+6fc22b9919
+			fabric-entity-events-v1: Fabric Entity Events (v1) 1.7.0+2122d82819
+			fabric-events-interaction-v0: Fabric Events Interaction (v0) 0.7.13+ba9dae0619
+			fabric-game-rule-api-v1: Fabric Game Rule API (v1) 1.0.53+6ced4dd919
+			fabric-item-api-v1: Fabric Item API (v1) 11.1.1+d5debaed19
+			fabric-item-group-api-v1: Fabric Item Group API (v1) 4.1.6+6823f7cd19
+			fabric-key-binding-api-v1: Fabric Key Binding API (v1) 1.0.47+0af3f5a719
+			fabric-keybindings-v0: Fabric Key Bindings (v0) 0.2.45+df3654b319
+			fabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 2.5.0+01d9a51c19
+			fabric-loot-api-v2: Fabric Loot API (v2) 3.0.15+3f89f5a519
+			fabric-loot-api-v3: Fabric Loot API (v3) 1.0.3+3f89f5a519
+			fabric-message-api-v1: Fabric Message API (v1) 6.0.13+6573ed8c19
+			fabric-model-loading-api-v1: Fabric Model Loading API (v1) 2.0.0+fe474d6b19
+			fabric-networking-api-v1: Fabric Networking API (v1) 4.3.0+c7469b2119
+			fabric-object-builder-api-v1: Fabric Object Builder API (v1) 15.2.1+40875a9319
+			fabric-particles-v1: Fabric Particles (v1) 4.0.2+6573ed8c19
+			fabric-recipe-api-v1: Fabric Recipe API (v1) 5.0.13+6508971219
+			fabric-registry-sync-v0: Fabric Registry Sync (v0) 5.2.0+34f5d91419
+			fabric-renderer-api-v1: Fabric Renderer API (v1) 3.4.0+c705a49c19
+			fabric-renderer-indigo: Fabric Renderer - Indigo 1.7.0+c705a49c19
+			fabric-renderer-registries-v1: Fabric Renderer Registries (v1) 3.2.68+df3654b319
+			fabric-rendering-data-attachment-v1: Fabric Rendering Data Attachment (v1) 0.3.48+73761d2e19
+			fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 3.1.6+1daea21519
+			fabric-rendering-v0: Fabric Rendering (v0) 1.1.71+df3654b319
+			fabric-rendering-v1: Fabric Rendering (v1) 5.0.5+df16efd019
+			fabric-resource-conditions-api-v1: Fabric Resource Conditions API (v1) 4.3.0+8dc279b119
+			fabric-resource-loader-v0: Fabric Resource Loader (v0) 1.3.1+5b5275af19
+			fabric-screen-api-v1: Fabric Screen API (v1) 2.0.25+8b68f1c719
+			fabric-screen-handler-api-v1: Fabric Screen Handler API (v1) 1.3.88+b559734419
+			fabric-sound-api-v1: Fabric Sound API (v1) 1.0.23+6573ed8c19
+			fabric-transfer-api-v1: Fabric Transfer API (v1) 5.4.2+95bead5f19
+			fabric-transitive-access-wideners-v1: Fabric Transitive Access Wideners (v1) 6.2.0+45b9699719
+		fabricloader: Fabric Loader 0.16.9
+		fancymenu: FancyMenu 3.3.2
+			com_github_keksuccino_japng: japng 0.5.3
+			com_github_rtyley_animated-gif-lib-for-java: animated-gif-lib-for-java animated-gif-lib-1.7
+		farmersdelight: Farmer's Delight 1.21.1-2.2.3+refabricated
+			mm: Manningham Mills 2.3
+			porting_lib_accessors: Porting Lib Accessors 3.1.0-fdrf.4+1.21.1
+			porting_lib_base: Porting Lib Base 3.1.0-fdrf.4+1.21.1
+			porting_lib_common: Porting Lib Common 3.1.0-fdrf.4+1.21.1
+			porting_lib_conditions: Porting Lib Conditions 3.1.0-fdrf.4+1.21.1
+			porting_lib_config: Porting Lib Config 3.1.0-fdrf.4+1.21.1
+				com_electronwill_night-config_core: core 3.8.0
+				com_electronwill_night-config_toml: toml 3.8.0
+			porting_lib_core: Porting Lib Core 3.1.0-fdrf.4+1.21.1
+			porting_lib_entity: Porting Lib Entity 3.1.0-fdrf.4+1.21.1
+			porting_lib_extensions: Porting Lib Extensions 3.1.0-fdrf.4+1.21.1
+			porting_lib_gui_utils: Porting Lib Gui Utils 3.1.0-fdrf.4+1.21.1
+			porting_lib_item_abilities: Porting Lib Item Abilities 3.1.0-fdrf.4+1.21.1
+			porting_lib_lazy_registration: Porting Lib Lazy Register 3.1.0-fdrf.4+1.21.1
+			porting_lib_level_events: Porting Lib Level Events 3.1.0-fdrf.4+1.21.1
+			porting_lib_loot: Porting Lib Loot 3.1.0-fdrf.4+1.21.1
+			porting_lib_recipe_book_categories: Porting Lib Recipe Book Categories 3.1.0-fdrf.4+1.21.1
+				mixinextras: MixinExtras 0.5.0-beta.3
+			porting_lib_tags: Porting Lib Tags 3.0
+			porting_lib_transfer: Porting Lib Transfer 3.1.0-fdrf.4+1.21.1
+		fishofthieves: Fish of Thieves 4.0.2
+		friendsandfoes: Friends & Foes 3.0.6
+		hoofprint: Hoofprint 0.6.0+1.21
+		iris: Iris 1.8.0+mc1.21.1
+			io_github_douira_glsl-transformer: glsl-transformer 2.0.1
+			org_anarres_jcpp: jcpp 1.4.14
+			org_antlr_antlr4-runtime: antlr4-runtime 4.13.1
+		java: OpenJDK 64-Bit Server VM 21
+		konkrete: Konkrete 1.9.9
+		minecraft: Minecraft 1.21.1
+		modmenu: Mod Menu 11.0.3
+			placeholder-api: Placeholder API 2.4.0-pre.2+1.21
+		mythicmetals: Mythic Metals 0.20.2+1.21
+			additionalentityattributes: Additional Entity Attributes 1.8.0+1.21
+			common-protection-api: Common Protection API 1.0.0
+		owo: oωo 0.12.15+1.21
+			io_wispforest_endec: endec 0.1.5
+			io_wispforest_endec_gson: gson 0.1.3
+			io_wispforest_endec_jankson: jankson 0.1.3
+			io_wispforest_endec_netty: netty 0.1.2
+		paradise_lost: Paradise Lost 2.2.7-beta+1.21.0
+			customportalapi: Custom Portal Api 0.0.1-beta67-1.21
+		portfolio: Portfolio 1.21.1-1.4.1-fabric
+		primalwinter: Primal Winter 6.0.2
+		puffish_attributes: Pufferfish's Attributes 0.6.6
+		puffish_skills: Pufferfish's Skills 0.14.3
+		sodium: Sodium 0.6.0+mc1.21.1
+		surveyor: Surveyor Map Framework 0.6.25+1.21
+			folk_sisby_kaleido-config: kaleido-config 0.3.1+1.3.2
+		terrestria: Terrestria 7.0.1
+			terraform-config-api-v1: Terraform Config API (v1) 11.0.0
+			terraform-dirt-api-v1: Terraform Dirt API (v1) 11.0.0
+			terraform-tree-api-v1: Terraform Tree API (v1) 11.0.0
+			terrestria-client: Terrestria: Client 7.0.1
+			terrestria-common: Terrestria: Common 7.0.1
+			terrestria-worldgen: Terrestria: World Generation 7.0.1
+		tooltipfix: ToolTip Fix 1.1.1-1.20
+		toomanypaintings: Too Many Paintings! 1.0.2-1.21-fabric
+		trinkets: Trinkets 3.10.0
+			cardinal-components-base: Cardinal Components API (base) 6.1.0
+			cardinal-components-entity: Cardinal Components API (entities) 6.1.0
+		villagerhats: Villager Hats 1.7.2+1.21
+		voicechat: Simple Voice Chat 1.21.1-2.5.26
+		wildfire_gender: Wildfire's Female Gender Mod 3.2.1+1.21
+		winterly: Winterly 0.11.2+1.21
+	Loaded Shaderpack: (off)

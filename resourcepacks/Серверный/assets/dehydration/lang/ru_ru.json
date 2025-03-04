@@ -1,0 +1,54 @@
+{
+  "death.attack.dehydration": "%1$s умер от обезвоживания",
+  "death.attack.thirst": "%1$s умер от жажди",
+
+  "effect.dehydration.dehydration_effect": "Обезвоживание",
+
+  "item.dehydration.leather_flask": "Кожаная фляга",
+  "item.dehydration.iron_leather_flask": "Железная кожаная фляга",
+  "item.dehydration.golden_leather_flask": "Золотая кожаная фляга",
+  "item.dehydration.diamond_leather_flask": "Алмазная кожаная фляга",
+  "item.dehydration.netherite_leather_flask": "Незеритовая кожаная фляга",
+  "item.dehydration.leather_flask.tooltip": "Уровень заполнения %1$s/%2$s",
+  "item.dehydration.leather_flask.tooltip2": "Возможность заполнения %1$s",
+  "item.dehydration.leather_flask.tooltip3": "%1$s",
+  "item.minecraft.potion.effect.purified_water": "Бутылка дистиллированной воды",
+  "item.minecraft.lingering_potion.effect.purified_water": "Туманная бутылка дистиллированной воды",
+  "item.minecraft.splash_potion.effect.purified_water": "Взрывная бутылка дистиллированной воды",
+  
+  "block.dehydration.campfire_cauldron": "Котел для костра",
+
+
+
+  "effect.dehydration.thirst_effect": "Жажда",
+  "effect.dehydration.hydration_effect": "Увлажнение",
+
+  "effect.dehydration.thirst_effect.description": "Увеличивает истощение гидратации; Более высокие уровни ускоряют обезвоживание.",
+  "effect.dehydration.hydration_effect.description": "Восстанавливает уровень гидратации; Более высокие уровни увеличивают скорость восстановления гидратации.",
+
+  "item.dehydration.item_group": "Обезвоживание",
+
+  "item.dehydration.leather_flask.tooltip3.dirty": "§2Грязная вода",
+  "item.dehydration.leather_flask.tooltip3.impurified": "§3Неочищенная вода",
+  "item.dehydration.leather_flask.tooltip3.purified": "§bОчищенная вода",
+  "item.dehydration.purified_water_bucket": "Ведро очищенной воды",
+  "item.dehydration.water_bowl": "Миска с водой",
+  "item.dehydration.purified_water_bowl": "Миска с очищенной водой",
+  "item.minecraft.potion.effect.hydration": "Зелье увлажения",
+  "item.minecraft.lingering_potion.effect.hydration": "Туманное зелье увлажения",
+  "item.minecraft.splash_potion.effect.hydration": "Взрывное зелья увлажения",
+  "item.minecraft.tipped_arrow.effect.hydration": "Стрела увлажения",
+
+  "item.dehydration.dirty_potion.tooltip":"Грязный",
+  
+  "block.dehydration.copper_cauldron": "Медный котел",
+  "block.dehydration.water_copper_cauldron": "Медный котел с водой",
+  "block.dehydration.purified_water": "Очищенная вода",
+  "block.dehydration.purified_water_copper_cauldron": "Медный котел с очищенной водой",
+  "block.dehydration.powder_snow_copper_cauldron": "Медный котел с рыхлым снегом",
+  "block.dehydration.bamboo_pump": "Бамбуковый насос",
+  "block.dehydration.bamboo_pump.cooldown": "Время восстановления: %ss",
+  "block.dehydration.bamboo_pump.no_water": "Насос не обнаружил воды",
+
+  "commands.dehydration.changed": "жажда изменилась"
+}

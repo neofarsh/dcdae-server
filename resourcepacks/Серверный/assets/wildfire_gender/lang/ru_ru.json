@@ -1,0 +1,64 @@
+{
+  "category.wildfire_gender.generic": "Женская грудь",
+  "key.wildfire_gender.gender_menu": "Меню кастомизации",
+
+  "wildfire_gender.player_list.title": "Меню кастомизации",
+  "wildfire_gender.player_list.settings_button": "Настройки",
+  "wildfire_gender.player_list.bounce_multiplier": "Множитель упругости: %sx",
+  "wildfire_gender.player_list.breast_momentum": "Импульс груди: %s%%",
+  "wildfire_gender.player_list.female_sounds": "Женские звуки: %s",
+
+  "wildfire_gender.wardrobe.title": "Меню кастомизации",
+  "wildfire_gender.wardrobe.slider.breast_size": "Размер груди: %s%%",
+  "wildfire_gender.wardrobe.slider.separation": "Расстояние: %s",
+  "wildfire_gender.wardrobe.slider.height": "Высота: %s",
+  "wildfire_gender.wardrobe.slider.depth": "Глубина: %s",
+  "wildfire_gender.wardrobe.slider.rotation": "Вращение: %s",
+
+  "wildfire_gender.appearance_settings.title": "Настройки внешности",
+  "wildfire_gender.char_settings.title": "Параметры",
+  "wildfire_gender.char_settings.physics": "Физика груди: %s",
+  "wildfire_gender.char_settings.hide_in_armor": "Скрывать под броней: %s",
+  "wildfire_gender.char_settings.hurt_sounds": "Женские звуки : %s",
+  "wildfire_gender.tooltip.hurt_sounds": "Включает женские звуки при ранении.",
+
+  "wildfire_gender.breast_customization.dual_physics": "Двойная физика: %s",
+
+  "wildfire_gender.label.gender": "Пол",
+  "wildfire_gender.label.female": "Женщина",
+  "wildfire_gender.label.male": "Мужчина",
+  "wildfire_gender.label.other": "Другое",
+
+  "wildfire_gender.label.enabled": "Вкл.",
+  "wildfire_gender.label.disabled": "Выкл.",
+  "wildfire_gender.label.yes": "Да",
+  "wildfire_gender.label.no": "Нет",
+  "wildfire_gender.label.with_creator": "Вы играете на одном сервере с создателем этого мода!",
+
+  "wildfire_gender.slider.bounce": "Упругость: %s%%",
+  "wildfire_gender.slider.floppy": "Импульс груди: %s%%",
+  "wildfire_gender.slider.min_bounce": "Зачем вообще включать физику?",
+  "wildfire_gender.slider.max_bounce": "Аниме-физика груди!!!",
+  "wildfire_gender.tooltip.bounce_warning": "Установка «Интенсивности упругости» на высокое значение будет выглядеть очень неестественно!",
+
+  "wildfire_gender.cancer_awareness.title": "Привет, сегодня Месяц борьбы с раком груди!",
+
+
+
+    "toast.wildfire_gender.get_started": "Press '%s' to get started!",
+
+  
+    "wildfire_gender.breast_customization.tab_customization": "Customization",
+    "wildfire_gender.breast_customization.tab_presets": "Presets",
+  
+    "wildfire_gender.breast_customization.presets.add_new": "Add New...",
+    "wildfire_gender.breast_customization.presets.delete": "Delete",
+  
+  
+  
+    "wildfire_gender.char_settings.override_armor_physics": "Физика брони: %s",
+    "wildfire_gender.tooltip.override_armor_physics.line1": "Грудь больше не будет уменьшаться при вашей экипированной броней, пока она включена.",
+    "wildfire_gender.tooltip.override_armor_physics.line2": "Параметр предназначен для использования с пакетами ресурсов.",
+  
+    "wildfire_gender.coming_soon": "Скоро.."
+}

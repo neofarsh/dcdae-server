@@ -1,0 +1,10 @@
+# default: true
+biomeWater = true
+# default: true
+topography = true
+# default: true
+transparentWater = true
+# default: true
+lighting = true
+# default: true
+showOffline = false

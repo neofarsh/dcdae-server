@@ -1,0 +1,42 @@
+
+# This is the config file for the Primal Winter mod
+[general]
+
+    # Should the vanilla /weather be disabled? Any changes require a world restart to take effect.
+    enableWeatherCommand = false
+
+    # If true, snow will be layered higher than one layer during world generation.
+    # Note: due to snow layers being > 1 block tall, this tends to prevent most passive (and hostile) mob spawning on the surface, since there are no places to spawn.
+    enableSnowAccumulationDuringWorldgen = false
+
+    # If true, snow will be layered higher than one layer during weather (snow).
+    enableSnowAccumulationDuringWeather = true
+
+    # A list of dimensions that will be modified by Primal Winter.
+    # Dimensions on this list, and all biomes that they may generate, **will** be modified. Note that this means if
+    # a biome is generated in a winter dimension, and a non-winter dimension **that biome will be broken**.
+    winterDimensions = ["minecraft:overworld"]
+
+
+[client]
+
+    # How dense the fog effect during a snowstorm is.
+    # Range: [0.0, 1.0]
+    fogDensity = 0.4
+
+    # How visually dense the snow weather effect is. Normally, vanilla sets this to 5 with fast graphics, and 10 with fancy graphics.
+    # Range: [1, 15]
+    snowDensity = 15
+
+    # Enable snow (actually rain) weather sounds.
+    snowSounds = true
+
+    # Enable wind / snow storm weather sounds.
+    windSounds = true
+
+    # This is the fog color during the day. It must be an RGB hex string.
+    fogColorDay = "bfbfd8"
+
+    # This is the fog color during the night. It must be an RGB hex string.
+    fogColorNight = "0c0c19"
+
