@@ -3,7 +3,7 @@ ao:true
 biomeBlendRadius:2
 enableVsync:true
 entityDistanceScaling:1.0
-entityShadows:true
+entityShadows:true 
 forceUnicodeFont:false
 japaneseGlyphVariants:false
 fov:0.5
