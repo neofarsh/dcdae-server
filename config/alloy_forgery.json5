@@ -2,6 +2,6 @@
 	"strictRecipeChecks": true,
 	"allowHigherTierOutput": true,
 	"allowBlastingFurnaceAdaption": true,
-	"baseInputAmount": 2,
+	"baseInputAmount": 2, 
 	"higherTierOutputIncrease": 1
 }
