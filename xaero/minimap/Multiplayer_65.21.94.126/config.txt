@@ -8,7 +8,7 @@ sortReversed:false
 
 //other config options
 ignoreHeightmaps:false
-
+ 
 //dimension types (DO NOT EDIT)
 dimensionType:minecraft$the_nether:bigglobe$nether
 dimensionType:minecraft$overworld:bigglobe$overworld
