@@ -4,12 +4,12 @@ layout-meta {
   identifier = settings_account
   render_custom_elements_behind_vanilla = false
   last_edited_time = 1748602798082
-  is_enabled = true
+  is_enabled = false
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:890822d3-02ba-48ec-b2f5-f7b6e48602c3-1748706418096] = [groups:][instances:]
+  [loading_requirement_container_meta:b199329a-3963-4d4f-8040-2f7a9a1ebdbd-1748716326320] = [groups:][instances:]
 }
 
 customization {
