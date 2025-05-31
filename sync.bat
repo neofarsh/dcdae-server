@@ -14,4 +14,3 @@ git commit -m "авто-синхронизация"
 git push origin main
 
 endlocal
-pause
