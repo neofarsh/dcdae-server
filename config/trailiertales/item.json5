@@ -1,0 +1,7 @@
+{
+	"sherd_duplication_recipe": false,
+	"brush": {
+		"smooth_animations": true,
+		"half_brush_effects": true,
+	},
+}

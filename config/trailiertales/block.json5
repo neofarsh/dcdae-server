@@ -1,0 +1,25 @@
+{
+	"suspiciousBlocks": {
+		"smooth_animations": true,
+		"particle": false,
+		"place_items": false,
+	},
+	"coffin": {
+		"ignore_do_mob_spawning_gamerule": false,
+		"wobble": true,
+		"wobble_activate": true,
+		"wobble_loot": false,
+		"wobble_potion": false,
+		"wobble_experience_bottle": false,
+	},
+	"blockSounds": {
+		"unpolished_bricks": true,
+		"polished_bricks": true,
+		"polished": true,
+		"polished_basalt": true,
+		"polished_deepslate": true,
+		"polished_tuff": true,
+		"polished_calcite": true,
+		"calcite_bricks": true,
+	},
+}

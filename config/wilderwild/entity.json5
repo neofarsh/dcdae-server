@@ -1,0 +1,71 @@
+{
+	"lightning": {
+		"lightningScorchesSand": true,
+		"lightningBlockParticles": true,
+		"lightningSmokeParticles": true,
+	},
+	"allay": {
+		"keyframeAllayDance": true,
+	},
+	"enderMan": {
+		"angerLoopSound": true,
+		"movingStareSound": true,
+	},
+	"firefly": {
+		"spawnFireflyParticles": false,
+		"spawnFireflies": true,
+		"fireflySpawnCap": 56,
+		"fireflySwarm": true,
+		"fireflySwarmsBush": true,
+	},
+	"butterfly": {
+		"spawnButterflies": true,
+		"butterflySpawnCap": 10,
+	},
+	"jellyfish": {
+		"spawnJellyfish": true,
+		"jellyfishSpawnCap": 30,
+		"jellyfishHiding": true,
+		"jellyfishTentacles": 8,
+		"planeTentacles": true,
+	},
+	"crab": {
+		"spawnCrabs": true,
+		"crabSpawnCap": 6,
+		"reachAffectsAttack": false,
+	},
+	"ostrich": {
+		"spawnOstriches": true,
+		"allowAttack": true,
+	},
+	"scorched": {
+		"spawnScorched": true,
+		"scorchedInTrialChambers": true,
+	},
+	"moobloom": {
+		"spawnMooblooms": true,
+	},
+	"penguin": {
+		"spawnPenguins": true,
+	},
+	"tumbleweed": {
+		"spawnTumbleweed": true,
+		"tumbleweedSpawnCap": 10,
+		"leashedTumbleweed": false,
+		"tumbleweedDestroysCrops": true,
+		"tumbleweedRotatesToLookDirection": false,
+	},
+	"warden": {
+		"wardenAttacksImmediately": true,
+		"wardenSwims": true,
+		"wardenSwimAnimation": true,
+		"wardenCustomTendrils": true,
+		"wardenImprovedDig": true,
+		"wardenImprovedEmerge": true,
+		"wardenBedrockSniff": true,
+		"wardenDeathAnimation": true,
+		"wardenEmergesFromCommand": false,
+		"wardenEmergesFromEgg": false,
+	},
+	"unpassableRail": false,
+}

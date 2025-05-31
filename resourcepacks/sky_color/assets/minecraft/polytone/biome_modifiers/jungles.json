@@ -1,0 +1,5 @@
+{
+    "sky_color": 9746943,
+    "fog_color": 12777727,
+    "targets": ["minecraft:bamboo_jungle", "minecraft:jungle", "minecraft:sparse_jungle"]
+  }

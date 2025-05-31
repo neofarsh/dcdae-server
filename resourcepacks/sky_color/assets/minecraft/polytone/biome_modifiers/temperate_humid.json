@@ -1,0 +1,5 @@
+{
+    "sky_color": 9090047,
+    "fog_color": 12638463,
+    "targets": ["minecraft:birch_forest", "minecraft:dark_forest", "minecraft:flower_forest", "minecraft:forest", "minecraft:old_growth_birch_forest"]
+  }

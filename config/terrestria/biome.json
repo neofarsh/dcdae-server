@@ -1,0 +1,24 @@
+{
+  "biomes": {
+    "caldera": false,
+    "canyon": true,
+    "dunes": false,
+    "volcanic_island": true,
+    "lush_desert": false,
+    "sakura_forest": false,
+    "cypress_swamp": false,
+    "cypress_forest": false,
+    "dense_woodlands": false,
+    "hemlock_rainforest": false,
+    "hemlock_treeline": false,
+    "japanese_maple_forest": false,
+    "oasis": false,
+    "outback": false,
+    "lush_redwood_forest": false,
+    "rainbow_rainforest": false,
+    "redwood_forest": false,
+    "windswept_redwood_forest": false,
+    "snowy_hemlock_forest": false,
+    "snowy_hemlock_treeline": false
+  }
+}

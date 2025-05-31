@@ -1,0 +1,13 @@
+{
+  "category.wildfire_gender.generic": "Персонализация",
+  "wildfire_gender.cloud.unavailable.invalid_account": "Синхронизация с облаком недоступна.",
+  "wildfire_gender.cloud.unavailable.offline_server": "Синхронизация с облаком недоступна.",
+  "wildfire_gender.always_show_list": " ",
+  "wildfire_gender.always_show_list.mod_ui_only": " ",
+  "wildfire_gender.always_show_list.mod_ui_only.tooltip": " ",
+  "wildfire_gender.always_show_list.tab_list_open": " ",
+  "wildfire_gender.always_show_list.tab_list_open.tooltip": " ",
+  "wildfire_gender.always_show_list.always": " ",
+  "wildfire_gender.always_show_list.always.tooltip": " "
+
+}

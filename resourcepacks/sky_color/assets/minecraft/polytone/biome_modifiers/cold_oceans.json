@@ -1,0 +1,5 @@
+{
+    "sky_color": 9415152,
+    "fog_color": 12638463,
+    "targets": ["minecraft:cold_ocean","minecraft:deep_cold_ocean"]
+  }
