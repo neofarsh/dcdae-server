@@ -1,5 +1,4 @@
 #
 #waypoint:name:initials:x:y:z:color:disabled:type:set:rotate_on_tp:tp_yaw:visibility_type:destination
 #
-waypoint:точка спавна:Т:17:88:19:6:false:0:gui.xaero_default:false:0:0:false
-waypoint:regerg:R:33:87:19:6:false:0:gui.xaero_default:false:0:0:false
+waypoint:Точка возрождения:Т:38:87:16:7:false:0:gui.xaero_default:false:0:0:false

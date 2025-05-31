@@ -21,9 +21,6 @@ net.minecraft.class_3928 {
 net.minecraft.class_442 {
 }
 
-net.minecraft.class_433 {
-}
-
 net.minecraft.class_429 {
 }
 
@@ -49,5 +46,8 @@ xaero.map.gui.ExportScreen {
 }
 
 xaero.common.gui.GuiMinimapMain {
+}
+
+net.minecraft.class_433 {
 }
 

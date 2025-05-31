@@ -7,7 +7,7 @@
   "maxRemainingDuration": 2147483647,
   "minAmbientAge": 90,
   "hudLayout": {
-    "enabled": true,
+    "enabled": false,
     "direction": "LEFT_TO_RIGHT",
     "relativeToEnd": true,
     "thickness": 1,
