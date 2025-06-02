@@ -12,6 +12,6 @@ copy /Y "%SOURCE%" "%DEST%"
 :: git-команды
 git add .
 git commit -m "auto-update"
-git push origin main
+git push origin main --force
 
 endlocal
