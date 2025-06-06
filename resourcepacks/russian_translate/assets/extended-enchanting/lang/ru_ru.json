@@ -1,0 +1,24 @@
+{
+  "death.attack.static_shock": "%1$s был поражён электричеством",
+  "death.attack.static_shock.player": "%1$s был поражён электричеством от %2$s",
+  
+  "enchantment.extended-enchanting.brimstone_heart": "Сердце пламени",
+  "enchantment.extended-enchanting.chorus_curse": "Проклятье хоруса",
+  "enchantment.extended-enchanting.combustion_protection": "Огнестойкость",
+  "enchantment.extended-enchanting.dual_strike": "Двойной удар",
+  "enchantment.extended-enchanting.feint": "Отскок",
+  "enchantment.extended-enchanting.frost_aspect": "Заморозка",
+  "enchantment.extended-enchanting.glass": "Хрусталь",
+  "enchantment.extended-enchanting.initiative": "Инициатива",
+  "enchantment.extended-enchanting.launch": "Подкидывание",
+  "enchantment.extended-enchanting.leeching_aspect": "Вампиризм",
+  "enchantment.extended-enchanting.lightning_aspect": "Электризация",
+  "enchantment.extended-enchanting.moon_heart": "Сердце луны",
+  "enchantment.extended-enchanting.rampage": "Бешенство",
+  "enchantment.extended-enchanting.replanting": "Автопосев",
+  "enchantment.extended-enchanting.soil_walker": "Землеход",
+  "enchantment.extended-enchanting.solitude": "Одиночество",
+  "enchantment.extended-enchanting.sun_heart": "Сердце солнца",
+  "enchantment.extended-enchanting.void_heart": "Сердце пустоты",
+  "enchantment.extended-enchanting.weapon_protection": "Защита от оружия"
+}

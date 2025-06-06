@@ -1,0 +1,5 @@
+{
+    "sky_color": 10729456,
+    "fog_color": 14411007,
+    "targets": ["minecraft:ice_spikes", "minecraft:deep_frozen_ocean", "minecraft:frozen_ocean","minecraft:frozen_river", "minecraft:snowy_beach", "minecraft:snowy_plains", "minecraft:snowy_taiga"]
+  }

@@ -1,0 +1,17 @@
+{
+	"apparition": {
+		"ignore_mob_griefing": false,
+	},
+	"sniffer": {
+		"cyan_rose_seeds": true,
+		"manedrop_germs": true,
+		"dawntrail_seeds": true,
+		"spawn": false,
+	},
+	"villager": {
+		"sell_catacombs_map": true,
+	},
+	"armorStand": {
+		"armor_stand_arms": true,
+	},
+}

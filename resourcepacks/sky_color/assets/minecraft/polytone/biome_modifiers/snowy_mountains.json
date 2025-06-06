@@ -1,0 +1,5 @@
+{
+    "sky_color": 8360929,
+    "fog_color": 14411007,
+    "targets": ["minecraft:frozen_peaks", "minecraft:grove", "minecraft:jagged_peaks", "minecraft:snowy_slopes"]
+  }

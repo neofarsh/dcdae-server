@@ -1,0 +1,30 @@
+{
+  "general": {
+    "trophyMaxHealth": 5.0,
+    "enableEarthwormsDrop": true,
+    "enableGrubsDrop": true,
+    "enableLeechesDrop": true,
+    "neutralFishBehavior": false,
+    "displayAllFishVariantInCreativeTab": false,
+    "enableFishItemWithAllVariant": false,
+    "displayTrophySpawnEggInCreativeTab": false
+  },
+  "biome": {
+    "tropicalIslandRegionWeight": 8
+  },
+  "spawnRate": {
+    "trophyProbability": 0.15,
+    "fishWeight": {
+      "splashtail": 15,
+      "pondie": 15,
+      "islehopper": 8,
+      "ancientscale": 8,
+      "plentifin": 12,
+      "wildsplash": 10,
+      "devilfish": 4,
+      "battlegill": 5,
+      "wrecker": 50,
+      "stormfish": 12
+    }
+  }
+}

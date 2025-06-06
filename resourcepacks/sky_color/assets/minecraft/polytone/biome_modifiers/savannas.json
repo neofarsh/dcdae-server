@@ -1,0 +1,5 @@
+{
+    "sky_color": 7254527,
+    "fog_color": 12446719,
+    "targets": ["minecraft:savanna", "minecraft:savanna_plateau"]
+  }

@@ -1,0 +1,5 @@
+{
+    "sky_color": 7907327,
+    "fog_color": 12638463,
+    "targets": ["minecraft:beach", "minecraft:cherry_grove", "minecraft:plains", "minecraft:meadow", "minecraft:stony_shore", "minecraft:sunflower_plains"]
+  }

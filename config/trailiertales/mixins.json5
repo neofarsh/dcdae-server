@@ -1,0 +1,32 @@
+{
+	// Required for Apparitions to interact with Ectoplasm Blocks properly
+	"apparition": true,
+	// Gives Armor Stands arms by default
+	"armor_stand": true,
+	// Required for Banner Boats
+	"boat": true,
+	// Makes Brush animations smoother
+	"brush": true,
+	// Required for the Rebrush enchantment and smooth animations to work
+	"brushable_block": true,
+	// Required to let the Camel spawn naturally
+	"camel": true,
+	// Required for Coffin-specific mob mechanics to work
+	"coffin": true,
+	// Required to allow Trailier Tales' content to be datafixed alongside vanilla content
+	"datafix": true,
+	// Required to let Dawntrails be sheared by Dispensers
+	"dawntrail": true,
+	// Mirror's the Decorated Pots wobble animation on each consecutive use
+	"decorated_pot": true,
+	// Required to let the player's cursor ignore Ectoplasm Blocks while inside them
+	"ectoplasm_block": true,
+	// Required for Apparitions to not collide with all blocks when Lithium is installed
+	"lithium": true,
+	// Required for a structure gen bugfix related to rail rotation
+	"rail": true,
+	// Required to let Redstone Wire connect to Surveyors
+	"surveyor": true,
+	// Client only
+	"haunt": true,
+}

@@ -1,0 +1,5 @@
+{
+    "sky_color": 7254527,
+    "fog_color": 16766899,
+    "targets": ["minecraft:badlands", "minecraft:eroded_badlands", "minecraft:wooded_badlands"]
+  }

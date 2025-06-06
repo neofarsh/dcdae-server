@@ -1,0 +1,19 @@
+{
+	"model": {
+		"type": "minecraft:select",
+		"property": "minecraft:custom_model_data",
+		"fallback": {
+			"type":"minecraft:model",
+			"model":"minecraft:item/warped_fungus_on_a_stick"
+		}, 
+		"cases": [
+			{
+				"when": "cmdg_key",
+				"model": {
+					"type":"minecraft:model",
+					"model":"keylock:item/key"
+				}
+			}
+		]
+	}
+}
