@@ -39,13 +39,13 @@ xaero.common.gui.GuiAddWaypoint {
 net.minecraft.class_410 {
 }
 
-xaero.common.gui.GuiMinimapMain {
-}
-
 xaero.common.gui.GuiWaypoints {
 }
 
 xaero.map.gui.GuiMap {
+}
+
+xaero.common.gui.GuiMinimapMain {
 }
 
 xaero.map.gui.GuiWorldMapSettings {
