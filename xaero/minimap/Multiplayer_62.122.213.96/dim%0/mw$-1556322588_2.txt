@@ -1,9 +1,13 @@
 #
 #waypoint:name:initials:x:y:z:color:disabled:type:set:rotate_on_tp:tp_yaw:visibility_type:destination
 #
+waypoint:теплица:Т:583:64:-230:10:false:0:gui.xaero_default:false:0:0:false
+waypoint:дом дмитрия:Д:413:72:-227:13:false:0:gui.xaero_default:false:0:0:false
+waypoint:оранжерея:О:-1560:106:-340:10:false:0:gui.xaero_default:false:0:0:false
+waypoint:база ветров:В:-1462:77:-108:7:false:0:gui.xaero_default:false:0:0:false
 waypoint:ферма скелетов:С:-55:124:1300:15:false:0:gui.xaero_default:false:0:0:false
 waypoint:ферма зомби:З:-14:98:1293:10:false:0:gui.xaero_default:false:0:0:false
-waypoint:точка возрождения:Т:-94:65:-68:10:false:0:gui.xaero_default:false:0:0:false
+waypoint:точка возрождения:С:-94:65:-68:12:false:0:gui.xaero_default:false:0:0:false
 waypoint:колодец:К:44:73:125:3:false:0:gui.xaero_default:false:0:0:false
 waypoint:квестовые жители:Ж:72:72:89:6:false:0:gui.xaero_default:false:0:0:false
 waypoint:загон:З:579:71:-261:3:false:0:gui.xaero_default:false:0:0:false
