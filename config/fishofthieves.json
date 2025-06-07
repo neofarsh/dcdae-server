@@ -5,9 +5,9 @@
     "enableGrubsDrop": true,
     "enableLeechesDrop": true,
     "neutralFishBehavior": false,
-    "displayAllFishVariantInCreativeTab": false,
+    "displayAllFishVariantInCreativeTab": true,
     "enableFishItemWithAllVariant": false,
-    "displayTrophySpawnEggInCreativeTab": false
+    "displayTrophySpawnEggInCreativeTab": true
   },
   "biome": {
     "tropicalIslandRegionWeight": 8
