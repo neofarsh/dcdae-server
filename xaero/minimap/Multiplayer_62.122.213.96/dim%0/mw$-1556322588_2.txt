@@ -1,6 +1,9 @@
 #
 #waypoint:name:initials:x:y:z:color:disabled:type:set:rotate_on_tp:tp_yaw:visibility_type:destination
 #
+waypoint:база муртле:Б:-5734:70:19308:10:false:0:gui.xaero_default:false:0:0:false
+waypoint:особняк иревы:И:-265:64:-943:7:false:0:gui.xaero_default:false:0:0:false
+waypoint:дом зивкаса:З:207:70:-406:1:false:0:gui.xaero_default:false:0:0:false
 waypoint:территория печеньки:П:1302:64:713:6:false:0:gui.xaero_default:false:0:0:false
 waypoint:теплица:Т:583:64:-230:10:false:0:gui.xaero_default:false:0:0:false
 waypoint:дом дмитрия:Д:413:72:-227:13:false:0:gui.xaero_default:false:0:0:false
