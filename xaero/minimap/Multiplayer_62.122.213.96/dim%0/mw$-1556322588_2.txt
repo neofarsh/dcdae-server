@@ -12,7 +12,6 @@ waypoint:магазин логнока:Л:18:72:21:8:false:0:gui.xaero_default:f
 waypoint:база муртле:Б:-5734:70:19308:10:false:0:gui.xaero_default:false:0:0:false
 waypoint:особняк иревы:И:-265:64:-943:7:false:0:gui.xaero_default:false:0:0:false
 waypoint:дом зивкаса:З:207:70:-406:1:false:0:gui.xaero_default:false:0:0:false
-waypoint:территория печеньки:П:1302:64:713:13:false:0:gui.xaero_default:false:0:0:false
 waypoint:теплица:Т:583:64:-230:10:false:0:gui.xaero_default:false:0:0:false
 waypoint:дом дмитрия:Д:413:72:-227:13:false:0:gui.xaero_default:false:0:0:false
 waypoint:оранжерея:О:-1560:106:-340:10:false:0:gui.xaero_default:false:0:0:false
