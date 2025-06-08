@@ -42,12 +42,12 @@ xaero.map.gui.GuiWorldMapSettings {
 net.minecraft.class_429 {
 }
 
-xaero.common.gui.GuiAddWaypoint {
-}
-
 xaero.map.gui.GuiMap {
 }
 
 net.minecraft.class_433 {
+}
+
+xaero.common.gui.GuiAddWaypoint {
 }
 
