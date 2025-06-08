@@ -42,12 +42,15 @@ xaero.map.gui.GuiWorldMapSettings {
 net.minecraft.class_429 {
 }
 
-xaero.map.gui.GuiMap {
-}
-
 net.minecraft.class_433 {
 }
 
+xaero.map.gui.GuiMap {
+}
+
 xaero.common.gui.GuiAddWaypoint {
+}
+
+red.jackf.chesttracker.impl.gui.screen.ChestTrackerScreen {
 }
 
