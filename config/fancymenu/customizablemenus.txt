@@ -51,6 +51,3 @@ xaero.map.gui.GuiMap {
 xaero.common.gui.GuiAddWaypoint {
 }
 
-red.jackf.chesttracker.impl.gui.screen.ChestTrackerScreen {
-}
-
