@@ -25,7 +25,7 @@ reloadEverything:false
 zoomButtons:false
 waypointBackgrounds:true
 detectAmbiguousY:true
-showDisabledWaypoints:false
+showDisabledWaypoints:true
 closeWaypointsWhenHopping:true
 adjustHeightForCarpetLikeBlocks:true
 onlyCurrentMapWaypoints:false

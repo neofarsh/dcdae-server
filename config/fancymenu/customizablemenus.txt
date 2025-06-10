@@ -21,16 +21,7 @@ net.minecraft.class_3928 {
 net.minecraft.class_446 {
 }
 
-net.minecraft.class_442 {
-}
-
 xaero.map.gui.ExportScreen {
-}
-
-net.minecraft.class_410 {
-}
-
-xaero.common.gui.GuiWaypoints {
 }
 
 xaero.common.gui.GuiMinimapMain {
@@ -48,6 +39,12 @@ net.minecraft.class_433 {
 xaero.map.gui.GuiMap {
 }
 
+xaero.common.gui.GuiWaypoints {
+}
+
 xaero.common.gui.GuiAddWaypoint {
+}
+
+net.minecraft.class_442 {
 }
 

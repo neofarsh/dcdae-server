@@ -1,33 +1,40 @@
 #
 #waypoint:name:initials:x:y:z:color:disabled:type:set:rotate_on_tp:tp_yaw:visibility_type:destination
 #
-waypoint:дом зивкаса и тендера:ЗТ:795:72:-573:8:false:0:gui.xaero_default:false:0:0:false
-waypoint:портал:П:507:75:-231:1:false:0:gui.xaero_default:false:0:0:false
-waypoint:полуживая деревня:ПД:585:74:-162:2:false:0:gui.xaero_default:false:0:0:false
-waypoint:дом ромы:Р:530:87:-120:6:false:0:gui.xaero_default:false:0:0:false
-waypoint:пирамида логнока:Л:1035:107:-100:15:false:0:gui.xaero_default:false:0:0:false
-waypoint:порт:Р:480:71:-218:12:false:0:gui.xaero_default:false:0:0:false
-waypoint:база точёных:БТ:872:64:588:0:false:0:gui.xaero_default:false:0:0:false
-waypoint:статуя:С:553:75:-260:8:false:0:gui.xaero_default:false:0:0:false
-waypoint:пчелы:П:610:64:-204:14:false:0:gui.xaero_default:false:0:0:false
-waypoint:гора картеля:Г:1008:90:698:4:false:0:gui.xaero_default:false:0:0:false
-waypoint:ферма:Ф:895:64:556:2:false:0:gui.xaero_default:false:0:0:false
-waypoint:пирамида лены:Л:883:66:552:6:false:0:gui.xaero_default:false:0:0:false
-waypoint:аквариум:А:624:68:-203:3:false:0:gui.xaero_default:false:0:0:false
-waypoint:вулканический остров:В:2854:72:-178:14:false:0:gui.xaero_default:false:0:0:false
-waypoint:магазин логнока:Л:18:72:21:8:false:0:gui.xaero_default:false:0:0:false
-waypoint:база муртле:Б:-5734:70:19308:10:false:0:gui.xaero_default:false:0:0:false
-waypoint:особняк иревы:И:-265:64:-943:7:false:0:gui.xaero_default:false:0:0:false
-waypoint:заброшка зивкаса:З:207:70:-406:1:false:0:gui.xaero_default:false:0:0:false
-waypoint:теплица:Т:583:64:-230:10:false:0:gui.xaero_default:false:0:0:false
-waypoint:дом дмитрия:Д:413:72:-227:13:false:0:gui.xaero_default:false:0:0:false
-waypoint:оранжерея:О:-1560:106:-340:10:false:0:gui.xaero_default:false:0:0:false
-waypoint:база ветров:БВ:-1462:77:-108:7:false:0:gui.xaero_default:false:0:0:false
-waypoint:ферма скелетов:С:-55:124:1300:15:false:0:gui.xaero_default:false:0:0:false
-waypoint:ферма зомби:З:-14:98:1293:10:false:0:gui.xaero_default:false:0:0:false
-waypoint:точка возрождения:С:-94:65:-68:4:false:0:gui.xaero_default:false:0:0:false
-waypoint:колодец:К:44:73:125:3:false:0:gui.xaero_default:false:0:0:false
-waypoint:квестовые жители:Ж:72:72:89:6:false:0:gui.xaero_default:false:0:0:false
-waypoint:загон:З:579:71:-261:9:false:0:gui.xaero_default:false:0:0:false
-waypoint:дом ани:А:491:76:-233:0:false:0:gui.xaero_default:false:0:0:false
-waypoint:дом саши:С:633:75:-219:6:false:0:gui.xaero_default:false:0:0:false
+waypoint:портал:П:507:75:-231:13:false:0:gui.xaero_default:false:0:2:false
+waypoint:аквариум:А:623:68:-204:1:false:0:gui.xaero_default:false:0:2:false
+waypoint:ферма зомби:З:-14:99:1294:2:false:0:gui.xaero_default:false:0:2:false
+waypoint:ферма скелетов:С:-55:124:1300:7:false:0:gui.xaero_default:false:0:2:false
+waypoint:пирамида логнога:Л:1035:107:-100:3:false:0:gui.xaero_default:false:0:2:false
+waypoint:особняк иревы:О:-264:69:-937:11:false:0:gui.xaero_default:false:0:2:false
+waypoint:оранжерея:О:-1560:106:-340:2:false:0:gui.xaero_default:false:0:2:false
+waypoint:заброшка зивкаса:З:209:70:-405:6:false:0:gui.xaero_default:false:0:2:false
+waypoint:пирамида муртле:П:-5729:72:19343:2:false:0:gui.xaero_default:false:0:2:false
+waypoint:дом зивкаса, тендера:З:797:80:-566:9:false:0:gui.xaero_default:false:0:2:false
+waypoint:дом документа, батона, альфы:Д:-1469:80:-87:14:false:0:gui.xaero_default:false:0:2:false
+waypoint:база картеля:БК:1065:81:752:0:false:0:gui.xaero_default:false:0:0:false
+waypoint:ферма:Ф:896:64:555:10:false:0:gui.xaero_default:false:0:2:false
+waypoint:пирамида лены:Л:882:65:553:14:false:0:gui.xaero_default:false:0:2:false
+waypoint:пирамида тайреда:Т:848:64:593:6:false:0:gui.xaero_default:false:0:2:false
+waypoint:порт:П:480:71:-219:11:false:0:gui.xaero_default:false:0:2:false
+waypoint:дом димы:Д:412:72:-229:5:false:0:gui.xaero_default:false:0:2:false
+waypoint:дом ромы:Р:528:82:-121:12:false:0:gui.xaero_default:false:0:2:false
+waypoint:полуживая деревня:Д:577:70:-155:4:false:0:gui.xaero_default:false:0:2:false
+waypoint:пчелиный угол:П:611:75:-203:14:false:0:gui.xaero_default:false:0:2:false
+waypoint:дом саши:С:631:74:-220:3:false:0:gui.xaero_default:false:0:2:false
+waypoint:теплица:Т:583:64:-232:2:false:0:gui.xaero_default:false:0:2:false
+waypoint:загон:З:578:71:-261:10:false:0:gui.xaero_default:false:0:2:false
+waypoint:статуя:С:553:75:-260:8:false:0:gui.xaero_default:false:0:2:false
+waypoint:дом ани:А:492:80:-232:6:false:0:gui.xaero_default:false:0:2:false
+waypoint:вулканический остров:В:2845:76:-168:2:false:0:gui.xaero_default:false:0:2:false
+waypoint:магазин логнога:Л:17:72:20:12:false:0:gui.xaero_default:false:0:2:false
+waypoint:колодец:К:44:73:125:3:false:0:gui.xaero_default:false:0:2:false
+waypoint:квестовые жители:Ж:71:72:89:14:false:0:gui.xaero_default:false:0:2:false
+waypoint:точка возрождения:Т:-93:65:-65:9:false:0:gui.xaero_default:false:0:2:false
+waypoint:песчаный предел:ПП:-42:68:-64:0:false:0:gui.xaero_default:false:0:0:false
+waypoint:торговая зона:ТЗ:10:67:76:0:false:0:gui.xaero_default:false:0:0:false
+waypoint:загон:З:-1457:63:-128:10:false:0:gui.xaero_default:false:0:2:false
+waypoint:загон:З:-1500:63:-115:10:false:0:gui.xaero_default:false:0:2:false
+waypoint:база точёных:БТ:873:64:577:0:false:0:gui.xaero_default:false:0:0:false
+waypoint:база парилки:БП:530:67:-188:0:false:0:gui.xaero_default:false:0:0:false
+waypoint:база ветров:БВ:-1495:63:-200:0:false:0:gui.xaero_default:false:0:0:false

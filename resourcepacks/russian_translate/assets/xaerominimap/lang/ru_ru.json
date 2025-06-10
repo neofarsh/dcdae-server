@@ -1,4 +1,11 @@
 {
-	"gui.xaero_share_msg1" : " ",
-	"gui.xaero_share_msg2" : " "
+	"gui.xaero_share_msg1" : "",
+	"gui.xaero_share_msg2" : "",
+	"gui.xaero_waypoint_shared" : "",
+	"gui.xaero_waypoint_shared_dimension" : "",
+	"gui.xaero_waypoint_unknown_dimension" : "",
+	"gui.xaero_waypoint_shared2" : "",
+	"gui.xaero_waypoint_shared_dimension2" : "",
+	"gui.xaero_waypoint_shared_add" : ""
+
 }
