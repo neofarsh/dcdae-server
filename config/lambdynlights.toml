@@ -237,6 +237,20 @@ mode = "fancy"
 				penguin = true
 				tumbleweed = true
 
+			[light_sources.settings.entities.fishofthieves]
+				devilfish = true
+				splashtail = true
+				coconut_chest_boat = true
+				stormfish = true
+				ancientscale = true
+				wrecker = true
+				battlegill = true
+				wildsplash = true
+				plentifin = true
+				islehopper = true
+				coconut_boat = true
+				pondie = true
+
 [debug]
 	active_dynamic_lighting_cells = false
 	display_dynamic_lighting_chunk_rebuild = false

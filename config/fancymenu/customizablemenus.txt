@@ -45,6 +45,30 @@ xaero.common.gui.GuiWaypoints {
 xaero.common.gui.GuiAddWaypoint {
 }
 
+net.minecraft.class_443 {
+}
+
+net.minecraft.class_458 {
+}
+
+net.minecraft.class_440 {
+}
+
+dev.lambdaurora.lambdynlights.gui.SettingsScreen {
+}
+
+net.irisshaders.iris.gui.screen.ShaderPackScreen {
+}
+
+net.minecraft.class_4288 {
+}
+
+net.minecraft.class_6599 {
+}
+
+net.minecraft.class_526 {
+}
+
 net.minecraft.class_442 {
 }
 
