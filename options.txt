@@ -171,8 +171,8 @@ key_iris.keybind.reload:key.keyboard.unknown
 key_iris.keybind.toggleShaders:key.keyboard.unknown
 key_iris.keybind.shaderPackSelection:key.keyboard.o
 key_iris.keybind.wireframe:key.keyboard.unknown
-soundCategory_master:0.5049668874172185
-soundCategory_music:0.10035211267605634
+soundCategory_master:0.2185430463576159
+soundCategory_music:0.056338028169014086
 soundCategory_record:0.5035211267605634
 soundCategory_weather:0.8045774646575602
 soundCategory_block:1.0

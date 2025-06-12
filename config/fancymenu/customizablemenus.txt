@@ -24,25 +24,13 @@ net.minecraft.class_446 {
 xaero.map.gui.ExportScreen {
 }
 
-xaero.common.gui.GuiMinimapMain {
-}
-
-xaero.map.gui.GuiWorldMapSettings {
-}
-
 net.minecraft.class_429 {
 }
 
 net.minecraft.class_433 {
 }
 
-xaero.map.gui.GuiMap {
-}
-
 xaero.common.gui.GuiWaypoints {
-}
-
-xaero.common.gui.GuiAddWaypoint {
 }
 
 net.minecraft.class_443 {
@@ -70,5 +58,17 @@ net.minecraft.class_526 {
 }
 
 net.minecraft.class_442 {
+}
+
+xaero.common.gui.GuiMinimapMain {
+}
+
+xaero.map.gui.GuiWorldMapSettings {
+}
+
+xaero.map.gui.GuiMap {
+}
+
+xaero.common.gui.GuiAddWaypoint {
 }
 

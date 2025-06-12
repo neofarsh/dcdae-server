@@ -12,4 +12,5 @@ ignoreHeightmaps:false
 
 //dimension types (DO NOT EDIT)
 dimensionType:minecraft$overworld:minecraft$overworld
+dimensionType:minecraft$the_nether:minecraft$the_nether
 //server waypoints

@@ -1,6 +1,10 @@
 #
 #waypoint:name:initials:x:y:z:color:disabled:type:set:rotate_on_tp:tp_yaw:visibility_type:destination
 #
+waypoint:кот на арбузе:К:-1441:74:-89:2:false:0:gui.xaero_default:false:0:2:false
+waypoint:скала март:М:1208:137:562:1:false:0:gui.xaero_default:false:0:2:false
+waypoint:пирамида артёма:А:732:61:571:6:false:0:gui.xaero_default:false:0:2:false
+waypoint:дом артёма:А:721:68:556:7:false:0:gui.xaero_default:false:0:2:false
 waypoint:портал:П:507:75:-231:13:false:0:gui.xaero_default:false:0:2:false
 waypoint:аквариум:А:623:68:-204:1:false:0:gui.xaero_default:false:0:2:false
 waypoint:ферма зомби:З:-14:99:1294:2:false:0:gui.xaero_default:false:0:2:false
