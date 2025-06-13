@@ -63,10 +63,10 @@ net.minecraft.class_442 {
 xaero.common.gui.GuiMinimapMain {
 }
 
-xaero.map.gui.GuiWorldMapSettings {
+xaero.map.gui.GuiMap {
 }
 
-xaero.map.gui.GuiMap {
+xaero.map.gui.GuiWorldMapSettings {
 }
 
 xaero.common.gui.GuiAddWaypoint {
