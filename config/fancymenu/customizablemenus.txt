@@ -27,9 +27,6 @@ xaero.map.gui.ExportScreen {
 net.minecraft.class_429 {
 }
 
-net.minecraft.class_433 {
-}
-
 xaero.common.gui.GuiWaypoints {
 }
 
@@ -70,5 +67,8 @@ xaero.map.gui.GuiWorldMapSettings {
 }
 
 xaero.common.gui.GuiAddWaypoint {
+}
+
+net.minecraft.class_433 {
 }
 

@@ -1,0 +1,319 @@
+---- Minecraft Crash Report ----
+// Hey, that tickles! Hehehe!
+
+Time: 2025-06-13 23:31:29
+Description: Rendering screen
+
+java.lang.NoSuchMethodError: 'java.lang.Object net.minecraft.class_1799.method_57824(net.minecraft.class_9331)'
+	at knot//net.minecraft.class_5682.drawSelectedItemTooltip(class_5682.java:594)
+	at knot//net.minecraft.class_5682.method_32666(class_5682.java:566)
+	at knot//net.minecraft.class_332.method_51435(class_332.java:625)
+	at knot//net.minecraft.class_332.method_51437(class_332.java:551)
+	at knot//net.minecraft.class_465.method_2380(class_465.java:221)
+	at knot//net.minecraft.class_476.method_25394(class_476.java:29)
+	at knot//net.minecraft.class_437.method_47413(class_437.java:113)
+	at knot//net.minecraft.class_757.mixinextras$bridge$method_47413$88(class_757.java)
+	at knot//net.minecraft.class_757.wrapOperation$bgl000$fabric-screen-api-v1$onRenderScreen(class_757.java:1915)
+	at knot//net.minecraft.class_757.mixinextras$bridge$wrapOperation$bgl000$fabric-screen-api-v1$onRenderScreen$89(class_757.java)
+	at knot//net.minecraft.class_757.wrapOperation$bkb000$fancymenu$wrapRenderScreenFancyMenu(class_757.java:2901)
+	at knot//net.minecraft.class_757.method_3192(class_757.java:572)
+	at knot//net.minecraft.class_310.method_1523(class_310.java:1353)
+	at knot//net.minecraft.class_310.method_1514(class_310.java:936)
+	at knot//net.minecraft.client.main.Main.main(Main.java:265)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at knot//net.minecraft.class_5682.drawSelectedItemTooltip(class_5682.java:594)
+	at knot//net.minecraft.class_5682.method_32666(class_5682.java:566)
+	at knot//net.minecraft.class_332.method_51435(class_332.java:625)
+	at knot//net.minecraft.class_332.method_51437(class_332.java:551)
+	at knot//net.minecraft.class_465.method_2380(class_465.java:221)
+	at knot//net.minecraft.class_476.method_25394(class_476.java:29)
+	at knot//net.minecraft.class_437.method_47413(class_437.java:113)
+	at knot//net.minecraft.class_757.mixinextras$bridge$method_47413$88(class_757.java)
+	at knot//net.minecraft.class_757.wrapOperation$bgl000$fabric-screen-api-v1$onRenderScreen(class_757.java:1915)
+	at knot//net.minecraft.class_757.mixinextras$bridge$wrapOperation$bgl000$fabric-screen-api-v1$onRenderScreen$89(class_757.java)
+	at knot//net.minecraft.class_757.wrapOperation$bkb000$fancymenu$wrapRenderScreenFancyMenu(class_757.java:2901)
+
+-- Screen render details --
+Details:
+	Screen name: net.minecraft.class_476
+	Mouse location: Scaled: (279.000000, 122.500000). Absolute: (558.000000, 245.000000)
+	Screen size: Scaled: (427, 240). Absolute: (854, 480). Scale factor of 2.000000
+Stacktrace:
+	at knot//net.minecraft.class_757.method_3192(class_757.java:572)
+	at knot//net.minecraft.class_310.method_1523(class_310.java:1353)
+	at knot//net.minecraft.class_310.method_1514(class_310.java:936)
+	at knot//net.minecraft.client.main.Main.main(Main.java:265)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+
+-- Uptime --
+Details:
+	JVM uptime: 59.206s
+	Wall uptime: 47.264s
+	High-res time: 40.427s
+	Client ticks: 657 ticks / 32.850s
+Stacktrace:
+	at knot//net.minecraft.class_310.method_1587(class_310.java:2382)
+	at knot//net.minecraft.class_310.method_54580(class_310.java:1005)
+	at knot//net.minecraft.class_310.method_1514(class_310.java:957)
+	at knot//net.minecraft.client.main.Main.main(Main.java:265)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+
+-- Affected level --
+Details:
+	All players: 1 total; class_746{name=neofarsh, id=675707, pos=(413.6171821478527, 64.0, -229.14958421916134), mode=SURVIVAL, permission=4}
+	Chunk stats: 1521, 1057
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (-95,66,-70), Section: (at 1,2,10 in -6,4,-5; chunk contains blocks -96,-64,-80 to -81,319,-65), Region: (-1,-1; contains chunks -32,-32 to -1,-1, blocks -512,-64,-512 to -1,319,-1)
+	Level time: 12741127 game time, 15913814 day time
+	Server brand: fabric
+	Server type: Non-integrated multiplayer server
+	Tracked entity count: 193
+
+-- Last reload --
+Details:
+	Reload number: 1
+	Reload reason: initial
+	Finished: Yes
+	Packs: vanilla, fabric, additional-armoury, advancementsfullscreen, appleskin, axolotlbuckets, beautify, betterthirdperson, biolith, bookshelfinspector, cinderscapes, cinderscapes-client, cinderscapes-common, cinderscapes-worldgen, clapboards, cloth-config, combat-plus-core, continuity, copperhopper, cratedelight, dark_title_bar, drippyloadingscreen, emojitype, enderscape, endrem, entityculling, extended-enchanting, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-convention-tags-v2, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-language-kotlin, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-api-v3, fabric-message-api-v1, fabric-model-loading-api-v1, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-tag-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, fancymenu, farmersdelight, fishofthieves, forgeconfigapiport, frozenlib, fsit, idwtialsimmoedm, iris, lambdynlights, lambdynlights_api, lilylib, linkedchests, lithium, mixson, mm, modmenu, morechathistory, nears, nemos_woodcutter, old-bundle-ui, peek, placeholder-api, poimes-mod-checker, polytone, pride, puzzleslib, scribble, skinlayers3d, sodium, spruceui, spyzoom, status-effect-bars, storagedelight, terraform-biome-remapper-api-v1, terraform-config-api-v1, terraform-dirt-api-v1, terraform-shapes-api-v1, terraform-surfaces-api-v1, terraform-tree-api-v1, terraform-wood-api-v1, terrestria, terrestria-client, terrestria-common, terrestria-worldgen, toomanypaintings, trailiertales, voicechat, wilderwild, xaerominimap, xaeroworldmap, yet_another_config_lib_v3, wilderwild:original_firefly, wilderwild:wilder_extra_music, combat-plus:enchanted_numerals, enderscape:lighting, continuity:default, continuity:glass_pane_culling_fix, file/blaze_and_caves, file/economy, file/gray_panorama, file/lush_crops, file/russian_translate, file/sky_color, file/lock_chest
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.5
+	Minecraft Version ID: 1.21.5
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 21.0.7, Microsoft
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Microsoft
+	Memory: 156919560 bytes (149 MiB) / 1430257664 bytes (1364 MiB) up to 4282384384 bytes (4084 MiB)
+	CPUs: 12
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 5 3600 6-Core Processor              
+	Identifier: AuthenticAMD Family 23 Model 113 Stepping 0
+	Microarchitecture: Zen 2
+	Frequency (GHz): 3.59
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 12
+	Graphics card #0 name: Radeon RX 580 Series
+	Graphics card #0 vendor: Advanced Micro Devices, Inc.
+	Graphics card #0 VRAM (MiB): 4096.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 31.0.21921.1000
+	Memory slot #0 capacity (MiB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 2.40
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MiB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 2.40
+	Memory slot #1 type: DDR4
+	Virtual memory max (MiB): 18760.71
+	Virtual memory used (MiB): 14241.78
+	Swap memory total (MiB): 2432.00
+	Swap memory used (MiB): 56.89
+	Space in storage for jna.tmpdir (MiB): available: 249716.28, total: 457223.00
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): available: 249716.28, total: 457223.00
+	Space in storage for io.netty.native.workdir (MiB): available: 249716.28, total: 457223.00
+	Space in storage for java.io.tmpdir (MiB): available: 249716.28, total: 457223.00
+	Space in storage for workdir (MiB): available: 249716.28, total: 457223.00
+	JVM Flags: 1 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	Fabric Mods: 
+		additional-armoury: Additional Armoury 2.0.3+1.21.5
+		advancementsfullscreen: AdvancementsFullscreen 1.2
+		appleskin: AppleSkin 3.0.6+mc1.21.5
+		axolotlbuckets: Axolotl Buckets 1.5.0
+		beautify: Beautify 1.5.0+1.21.5
+		betterthirdperson: Better Third Person 1.9.0
+		bookshelfinspector: Bookshelf Inspector 1.11+1.21.5
+			org_yaml_snakeyaml: snakeyaml 2.3
+		cinderscapes: Cinderscapes 5.3.0
+			biolith: Biolith 3.3.0-alpha.5
+			cinderscapes-client: Cinderscapes: Client 5.3.0
+			cinderscapes-common: Cinderscapes: Common 5.3.0
+			cinderscapes-worldgen: Cinderscapes: World Generation 5.3.0
+			terraform-biome-remapper-api-v1: Terraform Biome Remapper API (v1) 14.0.0-alpha.2
+			terraform-shapes-api-v1: Terraform Shapes API (v1) 14.0.0-alpha.2
+			terraform-surfaces-api-v1: Terraform Surfaces API (v1) 14.0.0-alpha.2
+			terraform-wood-api-v1: Terraform Wood API (v1) 14.0.0-alpha.2
+		clapboards: Pastell's Clapboards 2.0.0+1.21.4
+		cloth-config: Cloth Config v17 18.0.145
+			cloth-basic-math: cloth-basic-math 0.6.1
+		combat-plus-core: Combat+ Core 4.0.0+1.21.5
+			lilylib: LilyLib 4.0.0+1.21.5
+		continuity: Continuity 3.0.1-test.4+1.21.5
+		copperhopper: Copper Hopper 0.14.0+1.21.5
+		cratedelight: Crate Delight 24.12.9-1.21.4-fabric
+		dark_title_bar: DarkTitleBar 1.3
+		drippyloadingscreen: Drippy Loading Screen 3.0.13
+		emojitype: Emoji Type 2.3.0-1.21.3
+		enderscape: Enderscape 1.0.4+1.21.5
+			mixson: Mixson 1.3.2
+		endrem: End Remastered 6.1.3
+		entityculling: EntityCulling 1.7.4
+		extended-enchanting: Extended Enchanting 2.0.0+1.21.5
+		fabric-api: Fabric API 0.126.0+1.21.5
+			fabric-api-base: Fabric API Base 0.4.62+73a52b4b49
+			fabric-api-lookup-api-v1: Fabric API Lookup API (v1) 1.6.96+86c3a9f149
+			fabric-biome-api-v1: Fabric Biome API (v1) 16.0.7+2dd063df49
+			fabric-block-api-v1: Fabric Block API (v1) 1.1.0+ed91556f49
+			fabric-block-view-api-v2: Fabric BlockView API (v2) 1.0.26+aa6d566c49
+			fabric-blockrenderlayer-v1: Fabric BlockRenderLayer Registration (v1) 2.0.16+86c3a9f149
+			fabric-client-tags-api-v1: Fabric Client Tags 1.1.37+86c3a9f149
+			fabric-command-api-v1: Fabric Command API (v1) 1.2.70+f71b366f49
+			fabric-command-api-v2: Fabric Command API (v2) 2.2.49+73a52b4b49
+			fabric-commands-v0: Fabric Commands (v0) 0.2.87+df3654b349
+			fabric-content-registries-v0: Fabric Content Registries (v0) 10.0.14+3e6c1f7d49
+			fabric-convention-tags-v1: Fabric Convention Tags 2.1.32+7f945d5b49
+			fabric-convention-tags-v2: Fabric Convention Tags (v2) 2.15.1+0570995b49
+			fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.3.12+86c3a9f149
+			fabric-data-attachment-api-v1: Fabric Data Attachment API (v1) 1.8.3+bc514c4549
+			fabric-data-generation-api-v1: Fabric Data Generation API (v1) 22.4.2+ea72995749
+			fabric-dimensions-v1: Fabric Dimensions API (v1) 4.0.17+3e6c1f7d49
+			fabric-entity-events-v1: Fabric Entity Events (v1) 2.1.0+3ce7866349
+			fabric-events-interaction-v0: Fabric Events Interaction (v0) 4.0.15+64e3057949
+			fabric-game-rule-api-v1: Fabric Game Rule API (v1) 1.0.70+c327076a49
+			fabric-item-api-v1: Fabric Item API (v1) 11.4.1+e46fd76a49
+			fabric-item-group-api-v1: Fabric Item Group API (v1) 4.2.9+3459fc6149
+			fabric-key-binding-api-v1: Fabric Key Binding API (v1) 1.0.63+ecf51cdc49
+			fabric-keybindings-v0: Fabric Key Bindings (v0) 0.2.61+df3654b349
+			fabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 2.6.0+230071a049
+			fabric-loot-api-v2: Fabric Loot API (v2) 3.0.48+3f89f5a549
+			fabric-loot-api-v3: Fabric Loot API (v3) 1.0.36+86c3a9f149
+			fabric-message-api-v1: Fabric Message API (v1) 6.1.0+fe971bba49
+			fabric-model-loading-api-v1: Fabric Model Loading API (v1) 5.2.1+5281b90749
+			fabric-networking-api-v1: Fabric Networking API (v1) 4.5.0+775be32c49
+			fabric-object-builder-api-v1: Fabric Object Builder API (v1) 21.1.1+b8d6ba7049
+			fabric-particles-v1: Fabric Particles (v1) 4.1.2+112e550e49
+			fabric-recipe-api-v1: Fabric Recipe API (v1) 8.1.8+3235ab3249
+			fabric-registry-sync-v0: Fabric Registry Sync (v0) 6.1.21+b556383249
+			fabric-renderer-api-v1: Fabric Renderer API (v1) 6.1.0+5281b90749
+			fabric-renderer-indigo: Fabric Renderer - Indigo 3.1.0+5281b90749
+			fabric-rendering-data-attachment-v1: Fabric Rendering Data Attachment (v1) 0.3.64+73761d2e49
+			fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 3.1.27+86c3a9f149
+			fabric-rendering-v1: Fabric Rendering (v1) 11.1.11+5490746649
+			fabric-resource-conditions-api-v1: Fabric Resource Conditions API (v1) 5.0.21+73a52b4b49
+			fabric-resource-loader-v0: Fabric Resource Loader (v0) 3.1.7+847e5f5c49
+			fabric-screen-api-v1: Fabric Screen API (v1) 2.0.46+86c3a9f149
+			fabric-screen-handler-api-v1: Fabric Screen Handler API (v1) 1.3.128+c327076a49
+			fabric-sound-api-v1: Fabric Sound API (v1) 1.0.38+86c3a9f149
+			fabric-tag-api-v1: Fabric Tag API (v1) 1.0.17+ecf51cdc49
+			fabric-transfer-api-v1: Fabric Transfer API (v1) 5.4.24+7b20cbb049
+			fabric-transitive-access-wideners-v1: Fabric Transitive Access Wideners (v1) 6.3.17+f17a180c49
+		fabric-language-kotlin: Fabric Language Kotlin 1.13.3+kotlin.2.1.21
+			org_jetbrains_kotlin_kotlin-reflect: kotlin-reflect 2.1.21
+			org_jetbrains_kotlin_kotlin-stdlib: kotlin-stdlib 2.1.21
+			org_jetbrains_kotlin_kotlin-stdlib-jdk7: kotlin-stdlib-jdk7 2.1.21
+			org_jetbrains_kotlin_kotlin-stdlib-jdk8: kotlin-stdlib-jdk8 2.1.21
+			org_jetbrains_kotlinx_atomicfu-jvm: atomicfu-jvm 0.27.0
+			org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm: kotlinx-coroutines-core-jvm 1.10.2
+			org_jetbrains_kotlinx_kotlinx-coroutines-jdk8: kotlinx-coroutines-jdk8 1.10.2
+			org_jetbrains_kotlinx_kotlinx-datetime-jvm: kotlinx-datetime-jvm 0.6.2
+			org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm: kotlinx-io-bytestring-jvm 0.7.0
+			org_jetbrains_kotlinx_kotlinx-io-core-jvm: kotlinx-io-core-jvm 0.7.0
+			org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm: kotlinx-serialization-cbor-jvm 1.8.1
+			org_jetbrains_kotlinx_kotlinx-serialization-core-jvm: kotlinx-serialization-core-jvm 1.8.1
+			org_jetbrains_kotlinx_kotlinx-serialization-json-jvm: kotlinx-serialization-json-jvm 1.8.1
+		fabricloader: Fabric Loader 0.16.14
+			mixinextras: MixinExtras 0.4.1
+		fancymenu: FancyMenu 3.5.1
+			com_github_keksuccino_japng: japng 0.5.3
+			com_github_rtyley_animated-gif-lib-for-java: animated-gif-lib-for-java animated-gif-lib-1.7
+		farmersdelight: Farmer's Delight 1.21.5-3.1.4+refabricated
+			mm: Manningham Mills 2.3
+		ferritecore: FerriteCore 8.0.0
+		fishofthieves: Fish of Thieves 4.1.2
+		forgeconfigapiport: Forge Config API Port 21.5.1
+			com_electronwill_night-config_core: core 3.8.1
+			com_electronwill_night-config_toml: toml 3.8.1
+		fsit: FSit 2.7.8+mc1.21.2
+		idwtialsimmoedm: idwtialsimmoedm 0.3.3+1.21.5
+		iris: Iris 1.8.11+mc1.21.5
+			io_github_douira_glsl-transformer: glsl-transformer 2.0.1
+			org_anarres_jcpp: jcpp 1.4.14
+			org_antlr_antlr4-runtime: antlr4-runtime 4.13.1
+		java: OpenJDK 64-Bit Server VM 21
+		konkrete: Konkrete 1.9.11
+		lambdynlights: LambDynamicLights 4.2.6+1.21.5
+			lambdynlights_api: LambDynamicLights (API) 4.2.6+1.21.5
+				yumi-commons-collections: Yumi Commons: Collections 1.0.0-alpha.7
+				yumi-commons-core: Yumi Commons: Core 1.0.0-alpha.7
+				yumi-commons-event: Yumi Commons: Event 1.0.0-alpha.7
+			pride: Pride Lib 1.3.0+1.21.5
+			spruceui: SpruceUI 7.0.0+1.21.5
+		linkedchests: Linked Chests 21.5.1
+		lithium: Lithium 0.16.2+mc1.21.5
+		medieval_buildings: Medieval Buildings 1.1.0
+		melody: Melody 1.0.11
+		minecraft: Minecraft 1.21.5
+		modmenu: Mod Menu 14.0.0-rc.2
+			placeholder-api: Placeholder API 2.6.0+1.21.5
+		morechathistory: More Chat History 1.3.1
+		nears: Nears 2.1.5
+		nemos_woodcutter: Nemo's Woodcutter 1.21.5-1.12.7
+		old-bundle-ui: old-bundle-ui 1.0
+		peek: Peek 1.21.5-1.4.2
+		pickupnotifier: Pick Up Notifier 21.5.1
+		poimes-mod-checker: Poime's Mod Checker 1.0.0
+		polytone: Polytone 1.21.5-3.4.2
+			net_objecthunter_exp4j: exp4j 0.4.8
+		puzzleslib: Puzzles Lib 21.5.12
+		scribble: Scribble 1.5.2
+		skinlayers3d: 3d-Skin-Layers 1.7.5
+		sodium: Sodium 0.6.13+mc1.21.5
+		spyzoom: Spyglass Zoom 2.3.0
+		status-effect-bars: Status Effect Bars 1.0.8
+		storagedelight: Storage Delight 25.3.26-1.21.5-fabric
+		terrestria: Terrestria 7.3.1
+			terraform-config-api-v1: Terraform Config API (v1) 14.0.0-alpha.2
+			terraform-dirt-api-v1: Terraform Dirt API (v1) 14.0.0-alpha.2
+			terraform-tree-api-v1: Terraform Tree API (v1) 14.0.0-alpha.2
+			terrestria-client: Terrestria: Client 7.3.1
+			terrestria-common: Terrestria: Common 7.3.1
+			terrestria-worldgen: Terrestria: World Generation 7.3.1
+		toomanypaintings: Too Many Paintings! 24.11.29-1.21.3-fabric
+		trailiertales: Trailier Tales 1.1.8-mc1.21.5
+			frozenlib: FrozenLib 2.1.4-mc1.21.5
+		voicechat: Simple Voice Chat 1.21.5-2.5.30
+		wilderwild: Wilder Wild 4.0.11-mc1.21.5
+		xaerominimap: Xaero's Minimap 25.2.6
+		xaeroworldmap: Xaero's World Map 1.39.9
+		yet_another_config_lib_v3: YetAnotherConfigLib 3.6.6+1.21.5-fabric
+			com_twelvemonkeys_common_common-image: common-image 3.12.0
+			com_twelvemonkeys_common_common-io: common-io 3.12.0
+			com_twelvemonkeys_common_common-lang: common-lang 3.12.0
+			com_twelvemonkeys_imageio_imageio-core: imageio-core 3.12.0
+			com_twelvemonkeys_imageio_imageio-metadata: imageio-metadata 3.12.0
+			com_twelvemonkeys_imageio_imageio-webp: imageio-webp 3.12.0
+			org_quiltmc_parsers_gson: gson 0.2.1
+			org_quiltmc_parsers_json: json 0.2.1
+	Loaded Shaderpack: (off)
+	Launched Version: fabric-1.21.5-0.16.14
+	Launcher name: portablemc
+	Backend library: LWJGL version 3.3.3-snapshot
+	Backend API: Radeon RX 580 Series GL version 3.2.0 Core Profile Context 24.9.1.240813, ATI Technologies Inc.
+	Window size: 854x480
+	GFLW Platform: win32
+	Render Extensions: GL_KHR_debug, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access
+	GL debug messages: 
+	Is Modded: Definitely; Client brand changed to 'fabric'
+	Universe: 400921fb54442d18
+	Type: Client (map_client.txt)
+	Graphics mode: fancy
+	Render Distance: 16/16 chunks
+	Resource Packs: vanilla, fabric, additional-armoury, advancementsfullscreen, appleskin (incompatible), axolotlbuckets, beautify, betterthirdperson, biolith (incompatible), bookshelfinspector, cinderscapes, cinderscapes-client, cinderscapes-common, cinderscapes-worldgen, clapboards, cloth-config, combat-plus-core, continuity, copperhopper, cratedelight, dark_title_bar, drippyloadingscreen (incompatible), emojitype, enderscape, endrem (incompatible), entityculling, extended-enchanting, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-convention-tags-v2, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-language-kotlin, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-api-v3, fabric-message-api-v1, fabric-model-loading-api-v1, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-tag-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, fancymenu (incompatible), farmersdelight, fishofthieves, forgeconfigapiport, frozenlib, fsit, idwtialsimmoedm, iris, lambdynlights, lambdynlights_api, lilylib, linkedchests, lithium, mixson, mm, modmenu, morechathistory, nears, nemos_woodcutter (incompatible), old-bundle-ui, peek, placeholder-api, poimes-mod-checker, polytone, pride, puzzleslib, scribble, skinlayers3d, sodium, spruceui, spyzoom, status-effect-bars, storagedelight, terraform-biome-remapper-api-v1, terraform-config-api-v1, terraform-dirt-api-v1, terraform-shapes-api-v1, terraform-surfaces-api-v1, terraform-tree-api-v1, terraform-wood-api-v1, terrestria, terrestria-client, terrestria-common, terrestria-worldgen, toomanypaintings, trailiertales, voicechat, wilderwild, xaerominimap (incompatible), xaeroworldmap (incompatible), yet_another_config_lib_v3 (incompatible), wilderwild:original_firefly, wilderwild:wilder_extra_music, combat-plus:enchanted_numerals, enderscape:lighting, continuity:default, continuity:glass_pane_culling_fix, file/blaze_and_caves, file/economy, file/gray_panorama, file/lush_crops, file/russian_translate, file/sky_color, file/lock_chest
+	Current Language: ru_ru
+	Locale: ru_RU
+	System encoding: Cp1251
+	File encoding: UTF-8
+	CPU: 12x AMD Ryzen 5 3600 6-Core Processor 

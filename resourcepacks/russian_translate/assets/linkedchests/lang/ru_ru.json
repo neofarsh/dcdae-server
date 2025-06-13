@@ -1,0 +1,5 @@
+{
+  "block.linkedchests.linked_chest": "Связанный сундук",
+  "block.linkedchests.linked_chest.description": "Предоставляет доступ к предметам, хранящимся между измерениями.",
+  "item.linkedchests.linked_pouch": "Связанный мешок"
+}

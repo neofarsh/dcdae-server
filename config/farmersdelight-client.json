@@ -1,0 +1,8 @@
+{
+  "#README": "This config file does not support comments. To see them configure it in-game using YACL or Cloth Config (or just use Forge)",
+  "client": {
+    "nourishmentHungerOverlay": true,
+    "comfortHealthOverlay": true,
+    "foodEffectTooltip": true
+  }
+}

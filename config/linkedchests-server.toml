@@ -1,0 +1,8 @@
+#Amount of inventory slot rows on a general storage channel.
+#Default Value: 3
+#Range: 1 ~ 9
+inventory_rows = 3
+#Amount of inventory slot rows on a personal storage channel.
+#Default Value: 6
+#Range: 1 ~ 9
+personal_inventory_rows = 6
