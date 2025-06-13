@@ -6,3 +6,9 @@ variable {
   reset_on_launch = false
 }
 
+variable {
+  name = dcdae_easter_egg
+  value = 5
+  reset_on_launch = true
+}
+
