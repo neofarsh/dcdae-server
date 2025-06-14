@@ -66,9 +66,6 @@ xaero.map.gui.GuiMap {
 xaero.map.gui.GuiWorldMapSettings {
 }
 
-xaero.common.gui.GuiAddWaypoint {
-}
-
 net.minecraft.class_433 {
 }
 
