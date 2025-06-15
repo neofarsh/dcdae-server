@@ -1,13 +1,18 @@
 #
 #waypoint:name:initials:x:y:z:color:disabled:type:set:rotate_on_tp:tp_yaw:visibility_type:destination
 #
+waypoint:разрушенная пирамида:Р:-12:82:67:6:false:0:gui.xaero_default:false:0:2:false
+waypoint:вывеска лора:В:-49:70:-30:14:false:0:gui.xaero_default:false:0:2:false
+waypoint:символ благоразумия:С:41:68:41:9:false:0:gui.xaero_default:false:0:2:false
+waypoint:магазин всякой всячины:В:17:71:34:10:false:0:gui.xaero_default:false:0:2:false
+waypoint:кроличья нора:К:-24:65:-73:11:false:0:gui.xaero_default:false:0:2:false
 waypoint:подвал кролика:П:514:64:-224:14:false:0:gui.xaero_default:false:0:2:false
 waypoint:портал:П:-245:70:-920:5:false:0:gui.xaero_default:false:0:2:false
 waypoint:портал:П:-1499:72:-140:5:false:0:gui.xaero_default:false:0:2:false
 waypoint:нерабочая ферма:Ф:-286:90:-904:5:false:0:gui.xaero_default:false:0:2:false
 waypoint:дом игоря:И:-577:66:60:4:false:0:gui.xaero_default:false:0:2:false
 waypoint:база спидранеров:БС:-315:65:-932:0:false:0:gui.xaero_default:false:0:0:false
-waypoint:алтарь:А:18:72:48:7:false:0:gui.xaero_default:false:0:2:false
+waypoint:магазин незерита:Н:18:72:48:7:false:0:gui.xaero_default:false:0:2:false
 waypoint:странный портал:П:-41:72:-119:5:false:0:gui.xaero_default:false:0:2:false
 waypoint:кот на арбузе:К:-1441:74:-89:2:false:0:gui.xaero_default:false:0:2:false
 waypoint:скала март:М:1208:137:562:1:false:0:gui.xaero_default:false:0:2:false
@@ -39,7 +44,7 @@ waypoint:загон:З:578:71:-261:10:false:0:gui.xaero_default:false:0:2:false
 waypoint:статуя:С:553:75:-260:8:false:0:gui.xaero_default:false:0:2:false
 waypoint:дом ани:А:492:80:-232:6:false:0:gui.xaero_default:false:0:2:false
 waypoint:вулканический остров:В:2845:76:-168:2:false:0:gui.xaero_default:false:0:2:false
-waypoint:магазин логнога:Л:17:72:20:12:false:0:gui.xaero_default:false:0:2:false
+waypoint:магазин книжек:К:17:72:20:12:false:0:gui.xaero_default:false:0:2:false
 waypoint:колодец:К:44:73:125:3:false:0:gui.xaero_default:false:0:2:false
 waypoint:квестовые жители:Ж:71:72:89:14:false:0:gui.xaero_default:false:0:2:false
 waypoint:точка возрождения:Т:-93:65:-65:9:false:0:gui.xaero_default:false:0:2:false
