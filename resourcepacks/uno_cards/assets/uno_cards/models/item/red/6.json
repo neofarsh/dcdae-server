@@ -1,0 +1,7 @@
+{
+  "parent": "uno_cards:item/template",
+  "textures": {
+    "base": "uno_cards:item/base/red",
+    "value": "uno_cards:item/value/6"
+  }
+}
