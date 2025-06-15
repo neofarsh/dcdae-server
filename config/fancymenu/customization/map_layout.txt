@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = xaero.map.gui.GuiMap
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1749564875409
+  last_edited_time = 1749972231362
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:69081f78-e97c-4969-8e72-f607cc904328-1749564527815] = [groups:][instances:]
+  [loading_requirement_container_meta:abfc8349-82f1-4cc1-894a-020b9eed6643-1749972204783] = [groups:][instances:]
 }
 
 customization {

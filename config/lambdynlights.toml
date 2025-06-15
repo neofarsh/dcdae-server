@@ -181,9 +181,6 @@ mode = "fancy"
 				boomerang_projectile = true
 				fireball_spell = true
 
-			[light_sources.settings.entities.farmersdelight]
-				rotten_tomato = true
-
 			[light_sources.settings.entities.terrestria]
 				rainbow_eucalyptus_chest_boat = true
 				willow_chest_boat = true
@@ -253,23 +250,6 @@ mode = "fancy"
 				islehopper = true
 				coconut_boat = true
 				pondie = true
-
-			[light_sources.settings.entities.illagerinvasion]
-				skull_bolt = true
-				sorcerer = true
-				alchemist = true
-				surrendered = true
-				basher = true
-				necromancer = true
-				firecaller = true
-				invoker = true
-				marauder = true
-				invoker_fangs = true
-				flying_magma = true
-				hatchet = true
-				archivist = true
-				provoker = true
-				inquisitor = true
 
 [debug]
 	active_dynamic_lighting_cells = false

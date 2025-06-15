@@ -1,6 +1,7 @@
 #
 #waypoint:name:initials:x:y:z:color:disabled:type:set:rotate_on_tp:tp_yaw:visibility_type:destination
 #
-waypoint:портал ветров:ПВ:-191:64:-21:5:false:0:gui.xaero_default:false:0:0:false
-waypoint:портал баньки:ПБ:66:42:-33:5:false:0:gui.xaero_default:false:0:0:false
-waypoint:портал предела:ПП:-18:68:-9:5:false:0:gui.xaero_default:false:0:0:false
+waypoint:портал баньки:Б:66:41:-33:5:false:0:gui.xaero_default:false:0:0:false
+waypoint:портал предела:П:-18:67:-9:5:false:0:gui.xaero_default:false:0:0:false
+waypoint:портал ветров:В:-191:63:-21:5:false:0:gui.xaero_default:false:0:0:false
+waypoint:портал иревы:И:-32:61:-113:5:false:0:gui.xaero_default:false:0:0:false

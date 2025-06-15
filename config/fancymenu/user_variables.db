@@ -1,14 +1,20 @@
 type = user_variables
 
 variable {
+  name = dcdae_cheat
+  value = 0
+  reset_on_launch = true
+}
+
+variable {
   name = off_music
-  value = 1
+  value = 0
   reset_on_launch = false
 }
 
 variable {
   name = dcdae_easter_egg
-  value = 4
+  value = 
   reset_on_launch = true
 }
 

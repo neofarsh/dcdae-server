@@ -4,12 +4,12 @@ layout-meta {
   identifier = inventory_screen
   render_custom_elements_behind_vanilla = false
   last_edited_time = 1749414041945
-  is_enabled = false
+  is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:3ac5d038-61bb-4931-95dd-a55df2019ec2-1749903727096] = [groups:][instances:]
+  [loading_requirement_container_meta:de6ad503-aa0a-4466-b41a-f3c1e59914c4-1749971986092] = [groups:][instances:]
 }
 
 customization {
