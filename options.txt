@@ -51,7 +51,7 @@ damageTiltStrength:1.0
 highContrast:false
 highContrastBlockOutline:false
 narratorHotkey:false
-resourcePacks:["vanilla","fabric","wilderwild:original_firefly","wilderwild:wilder_extra_music","combat-plus:enchanted_numerals","enderscape:lighting","continuity:default","continuity:glass_pane_culling_fix","file/blaze_and_caves","file/economy","file/gray_panorama","file/lush_crops","file/russian_translate","file/sky_color","file/lock_chest"]
+resourcePacks:["vanilla","fabric","wilderwild:original_firefly","wilderwild:wilder_extra_music","combat-plus:enchanted_numerals","enderscape:lighting","continuity:default","continuity:glass_pane_culling_fix","file/blaze_and_caves","file/economy","file/gray_panorama","file/lush_crops","file/russian_translate","file/sky_color","file/lock_chest","file/uno_cards"]
 incompatibleResourcePacks:["appleskin","biolith","drippyloadingscreen","endrem","fancymenu","nemos_woodcutter","xaerominimap","xaeroworldmap","yet_another_config_lib_v3"]
 lastServer:
 lang:ru_ru
